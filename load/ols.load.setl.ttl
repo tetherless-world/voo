@@ -1,0 +1,57 @@
+@prefix prov:          <http://www.w3.org/ns/prov#> .
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix void:          <http://rdfs.org/ns/void#> .
+@prefix ldapi:         <http://purl.org/linked-data/api/vocab#> .
+@prefix setl:          <http://purl.org/twc/vocab/setl/> .
+@prefix csvw:          <http://www.w3.org/ns/csvw#> .
+@prefix pv:            <http://purl.org/net/provenance/ns#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix :              <http://purl.org/whyis/voo/setl/ols/> .
+@prefix voo:           <http://purl.org/whyis/voo/> .
+
+:setl a setl:SemanticETLScript.
+
+<http://purl.org/whyis/voo/portal/ols/api/ontologies> a setl:JSON;
+  ldapi:selector "_embedded.ontologies.item";
+  prov:wasGeneratedBy [
+    a setl:Extract;
+    prov:used <https://www.ebi.ac.uk/ols/api/ontologies?size=500>;
+  ].
+
+<http://purl.org/whyis/voo/portal/ols> a void:Dataset, voo:OntologyPortal ;
+  rdfs:label "Ontology Lookup Service";
+  prov:wasGeneratedBy :setl, [
+    a setl:Transform;
+    prov:used <http://purl.org/whyis/voo/portal/ols/api/ontologies>;
+    setl:hasContext '''{
+      "dcat" : "http://www.w3.org/ns/dcat#",
+      "void" : "http://rdfs.org/ns/void#",
+      "prov" : "http://www.w3.org/ns/prov#",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "ols" : "https://www.ebi.ac.uk/ols/api/",
+      "skos" : "http://www.w3.org/2004/02/skos/core#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    }''';
+    prov:value '''[{
+      "@id" : "ols:ontology/{{row['ontologyId']}}",
+      "void:inDataset" : { "@id" : "http://purl.org/whyis/voo/portal/ols"},
+      "rdfs:label" : "{{row['config']['title']}}",
+      "skos:notation" : "{{row['ontologyId']}}",
+      "@type" : "dcat:Dataset",
+      "dcat:distribution" : {
+        "@id" : "{{row['config']['id']}}",
+	"@type" : ["dcat:Distribution"]
+      }
+    }]'''
+  ].
+
+#<ols.ttl> a pv:File;
+#  dcterms:format "text/turtle";
+#  prov:wasGeneratedBy [
+#    a setl:Load;
+#    prov:used <http://purl.org/whyis/voo/portal/ols>
+#  ].
+

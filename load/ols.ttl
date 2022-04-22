@@ -1,0 +1,2175 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/aeo> a dcat:Dataset ;
+    rdfs:label "Anatomical Entity Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "aeo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/aeo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/afo> a dcat:Dataset ;
+    rdfs:label "Allotrope Merged Ontology Suite" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "afo" ;
+    dcat:distribution <http://purl.allotrope.org/voc/afo/merged-OLS/REC/2019/05/10> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/agro> a dcat:Dataset ;
+    rdfs:label "Agronomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "agro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/agro-edit.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/aism> a dcat:Dataset ;
+    rdfs:label "Ontology for the Anatomy of the Insect SkeletoMuscular system" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "aism" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/aism.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/amphx> a dcat:Dataset ;
+    rdfs:label "Amphioxus Development and Anatomy Ontology (AMPHX)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "amphx" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/amphx/amphx.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/apo> a dcat:Dataset ;
+    rdfs:label "Ascomycete Phenotype Ontology (APO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "apo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/apo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/apollo_sv> a dcat:Dataset ;
+    rdfs:label "Apollo Structured Vocabulary (Apollo-SV)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "apollo_sv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/apollo_sv.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/aro> a dcat:Dataset ;
+    rdfs:label "Antibiotic Resistance Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "aro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/antibiotic_resistance.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/atol> a dcat:Dataset ;
+    rdfs:label "Animal Trait Ontology for Livestock" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "atol" ;
+    dcat:distribution <http://opendata.inra.fr/ATOL/atol_ontology> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/bao> a dcat:Dataset ;
+    rdfs:label "BioAssay Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "bao" ;
+    dcat:distribution <http://www.bioassayontology.org/bao/bao_complete.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/bcio> a dcat:Dataset ;
+    rdfs:label "The Behaviour Change Intervention Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "bcio" ;
+    dcat:distribution <http://humanbehaviourchange.org/ontology/bcio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/bco> a dcat:Dataset ;
+    rdfs:label "Biological Collections Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "bco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/bco.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/bfo> a dcat:Dataset ;
+    rdfs:label "Basic Formal Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "bfo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/bfo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/bspo> a dcat:Dataset ;
+    rdfs:label "Biological Spatial Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "bspo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/bspo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/bto> a dcat:Dataset ;
+    rdfs:label "The BRENDA Tissue Ontology (BTO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "bto" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/bto.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/caro> a dcat:Dataset ;
+    rdfs:label "Common Anatomy Reference Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "caro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/caro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cco> a dcat:Dataset ;
+    rdfs:label "Cell Cycle Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cco> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cdao> a dcat:Dataset ;
+    rdfs:label "Comparative Data Analysis Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cdao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cdao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cdno> a dcat:Dataset ;
+    rdfs:label "Compositional Dietary Nutrition Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cdno" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cdno.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ceph> a dcat:Dataset ;
+    rdfs:label "Cephalopod Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ceph" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ceph.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/chebi> a dcat:Dataset ;
+    rdfs:label "Chemical Entities of Biological Interest" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "chebi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/chebi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cheminf> a dcat:Dataset ;
+    rdfs:label "chemical information ontology (cheminf) - information entities about chemical entities" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cheminf" ;
+    dcat:distribution <http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/chiro> a dcat:Dataset ;
+    rdfs:label "CHEBI Integrated Role Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "chiro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/chiro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/chmo> a dcat:Dataset ;
+    rdfs:label "Chemical Methods Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "chmo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/chmo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cido> a dcat:Dataset ;
+    rdfs:label "CIDO: Ontology of Coronavirus Infectious Disease" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cido" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cido.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cio> a dcat:Dataset ;
+    rdfs:label "Confidence Information Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cio" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cl> a dcat:Dataset ;
+    rdfs:label "Cell Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cl" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cl.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/clao> a dcat:Dataset ;
+    rdfs:label "Collembola Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "clao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/clao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/clo> a dcat:Dataset ;
+    rdfs:label "CLO: Cell Line Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "clo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/clo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/clyh> a dcat:Dataset ;
+    rdfs:label "Clytia hemisphaerica Development and Anatomy Ontology (CLYH)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "clyh" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/clyh/clyh.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cmo> a dcat:Dataset ;
+    rdfs:label "Clinical measurement ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cmo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cmo.obo> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cmpo> a dcat:Dataset ;
+    rdfs:label "Cellular Microscopy Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cmpo" ;
+    dcat:distribution <http://www.ebi.ac.uk/cmpo/cmpo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_320> a dcat:Dataset ;
+    rdfs:label "Rice ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_320" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_320/Rice> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_321> a dcat:Dataset ;
+    rdfs:label "Wheat ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_321" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_321/Wheat> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_321:root> a dcat:Dataset ;
+    rdfs:label "Wheat ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_321:root" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_321:ROOT/Wheat> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_322> a dcat:Dataset ;
+    rdfs:label "Maize ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_322" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_322/Maize> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_323> a dcat:Dataset ;
+    rdfs:label "Barley ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_323" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_323/Barley%20Trait%20Dictionary> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_324> a dcat:Dataset ;
+    rdfs:label "Sorghum ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_324" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_324/Sorghum> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_325> a dcat:Dataset ;
+    rdfs:label "Banana ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_325" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_325/Banana> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_326> a dcat:Dataset ;
+    rdfs:label "Coconut ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_326" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_326/Coconut> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_327> a dcat:Dataset ;
+    rdfs:label "Pearl millet ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_327" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_330> a dcat:Dataset ;
+    rdfs:label "Potato ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_330" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_330/Potato> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_331> a dcat:Dataset ;
+    rdfs:label "Sweet Potato ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_331" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_333> a dcat:Dataset ;
+    rdfs:label "Beet Ontology ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_333" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_334> a dcat:Dataset ;
+    rdfs:label "Cassava ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_334" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_334/Cassava> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_335> a dcat:Dataset ;
+    rdfs:label "Common Bean ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_335" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_336> a dcat:Dataset ;
+    rdfs:label "Soybean ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_336" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_336/Soybean> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_337> a dcat:Dataset ;
+    rdfs:label "Groundnut ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_337" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_337/Groundnut> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_338> a dcat:Dataset ;
+    rdfs:label "Chickpea ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_338" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_338/Chickpea> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_339> a dcat:Dataset ;
+    rdfs:label "Lentil ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_339" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_339/Lentil> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_340> a dcat:Dataset ;
+    rdfs:label "Cowpea ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_340" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_340/Cowpea> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_341> a dcat:Dataset ;
+    rdfs:label "Pigeonpea ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_341" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_341/Pigeonpea> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_343> a dcat:Dataset ;
+    rdfs:label "Yam ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_343" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_343/Yam> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_345> a dcat:Dataset ;
+    rdfs:label "Brachiaria ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_345" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_345/Brachiaria> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_346> a dcat:Dataset ;
+    rdfs:label "Mungbean ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_346" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_346/Mungbean> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_347> a dcat:Dataset ;
+    rdfs:label "Castor bean ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_347" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_348> a dcat:Dataset ;
+    rdfs:label "Brassica ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_348" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_348/Brassica> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_350> a dcat:Dataset ;
+    rdfs:label "Oat ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_350" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_350/Oat> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_356> a dcat:Dataset ;
+    rdfs:label "Vitis ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_356" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_356/Vitis> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_357> a dcat:Dataset ;
+    rdfs:label "Woody Plant Ontology ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_357" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_358> a dcat:Dataset ;
+    rdfs:label "Cotton ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_358" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_358/Cotton%20Ontology> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_359> a dcat:Dataset ;
+    rdfs:label "Sunflower ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_359" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_359/Sunflower> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_360> a dcat:Dataset ;
+    rdfs:label "Sugar Kelp trait ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_360" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_365> a dcat:Dataset ;
+    rdfs:label "Fababean ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_365" ;
+    dcat:distribution <http://www.cropontology.org/ontology/CO_365/Fababean> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/co_366> a dcat:Dataset ;
+    rdfs:label "Bambara groundnut ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "co_366" ;
+    dcat:distribution <https://cropontology.org/rdf/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cob> a dcat:Dataset ;
+    rdfs:label "Core Ontology for Biology and Biomedicine" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cob" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cob.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/colao> a dcat:Dataset ;
+    rdfs:label "Coleoptera Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "colao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/colao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/covoc> a dcat:Dataset ;
+    rdfs:label "CoVoc Coronavirus Vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "covoc" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/covoc.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cro> a dcat:Dataset ;
+    rdfs:label "Contributor Role Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cryoem> a dcat:Dataset ;
+    rdfs:label "Cryo Electron Microscopy ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cryoem" ;
+    dcat:distribution <http://scipion.i2pc.es/ontology/cryoem.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cteno> a dcat:Dataset ;
+    rdfs:label "Ctenophore Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cteno" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cteno.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cto> a dcat:Dataset ;
+    rdfs:label "CTO: Core Ontology of Clinical Trials" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cto" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cto.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/cvdo> a dcat:Dataset ;
+    rdfs:label "Cardiovascular Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "cvdo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/cvdo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ddanat> a dcat:Dataset ;
+    rdfs:label "Dictyostelium discoideum anatomy" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ddanat" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ddanat.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ddpheno> a dcat:Dataset ;
+    rdfs:label "Dicty Phenotype Ontology (DDPHENO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ddpheno" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ddpheno.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/dicom> a dcat:Dataset ;
+    rdfs:label "DICOM Controlled Terminology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "dicom" ;
+    dcat:distribution <http://dicom.nema.org/resources/ontology/DCM/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/dideo> a dcat:Dataset ;
+    rdfs:label "Drug-drug Interaction and Drug-drug Interaction Evidence Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "dideo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/dideo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/disdriv> a dcat:Dataset ;
+    rdfs:label "Disease Drivers" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "disdriv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/doid/imports/disdriv_import.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/doid> a dcat:Dataset ;
+    rdfs:label "Human Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "doid" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/doid.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/dpo> a dcat:Dataset ;
+    rdfs:label "Drosophila Phenotype Ontology (DPO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "dpo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/dpo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/dron> a dcat:Dataset ;
+    rdfs:label "The Drug Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "dron" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/dron.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/duo> a dcat:Dataset ;
+    rdfs:label "Data Use Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "duo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/duo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ecao> a dcat:Dataset ;
+    rdfs:label "Echinoderm Anatomy and Development Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ecao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ecao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/eco> a dcat:Dataset ;
+    rdfs:label "Evidence & Conclusion Ontology (ECO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "eco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/eco.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ecocore> a dcat:Dataset ;
+    rdfs:label "An ontology of core ecological entities" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ecocore" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ecocore.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ecto> a dcat:Dataset ;
+    rdfs:label "Environment Exposure Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ecto" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ecto.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/edam> a dcat:Dataset ;
+    rdfs:label "Bioinformatics operations, data types, formats, identifiers and topics" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "edam" ;
+    dcat:distribution <http://edamontology.org/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/efo> a dcat:Dataset ;
+    rdfs:label "Experimental Factor Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "efo" ;
+    dcat:distribution <http://www.ebi.ac.uk/efo/efo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ehdaa2> a dcat:Dataset ;
+    rdfs:label "Human developmental anatomy, abstract" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ehdaa2" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ehdaa2.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/emapa> a dcat:Dataset ;
+    rdfs:label "Mouse Developmental Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "emapa" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/emapa.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/enm> a dcat:Dataset ;
+    rdfs:label "eNanoMapper Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "enm" ;
+    dcat:distribution <http://enanomapper.github.io/ontologies/enanomapper.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ensemblglossary> a dcat:Dataset ;
+    rdfs:label "Ensembl Glossary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ensemblglossary" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ensembl-glossary.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/envo> a dcat:Dataset ;
+    rdfs:label "The Environment Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "envo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/envo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/eol> a dcat:Dataset ;
+    rdfs:label "Environment Ontology for Livestock" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "eol" ;
+    dcat:distribution <http://opendata.inra.fr/EOL/eol_ontology> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/epio> a dcat:Dataset ;
+    rdfs:label "Epilepsy Ontology (EPIO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "epio" ;
+    dcat:distribution <https://bio.scai.fraunhofer.de/ontology/epilepsy> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/epso> a dcat:Dataset ;
+    rdfs:label "Epilepsy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "epso" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/EPSO> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ero> a dcat:Dataset ;
+    rdfs:label "eagle-i resource ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ero" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ero.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/eupath> a dcat:Dataset ;
+    rdfs:label "VEuPathDB Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "eupath" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/eupath.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/exo> a dcat:Dataset ;
+    rdfs:label "Exposure ontology (ExO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "exo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/exo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fao> a dcat:Dataset ;
+    rdfs:label "Fungal gross anatomy" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fbbi> a dcat:Dataset ;
+    rdfs:label "Biological Imaging Methods Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fbbi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fbbi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fbbt> a dcat:Dataset ;
+    rdfs:label "Drosophila Anatomy Ontology (DAO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fbbt" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fbbt.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fbcv> a dcat:Dataset ;
+    rdfs:label "FlyBase Controlled Vocabulary (FBcv)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fbcv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fbcv.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fbdv> a dcat:Dataset ;
+    rdfs:label "FlyBase Developmental Ontology (FBdv)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fbdv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fbdv.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fideo> a dcat:Dataset ;
+    rdfs:label "Food Interactions with Drugs Evidence Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fideo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fideo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fix> a dcat:Dataset ;
+    rdfs:label "Physico-chemical methods and properties" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fix" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fix.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/flopo> a dcat:Dataset ;
+    rdfs:label "Flora Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "flopo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/flopo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fma> a dcat:Dataset ;
+    rdfs:label "Foundational Model of Anatomy Ontology (subset)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fma" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fma.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fobi> a dcat:Dataset ;
+    rdfs:label "Food-Biomarker Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fobi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fobi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/foodon> a dcat:Dataset ;
+    rdfs:label "Food Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "foodon" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/foodon.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fovt> a dcat:Dataset ;
+    rdfs:label "FuTRES Ontology of Vertebrate Traits" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fovt" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fovt.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/fypo> a dcat:Dataset ;
+    rdfs:label "Fission Yeast Phenotype Ontology (FYPO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "fypo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/fypo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/gaz> a dcat:Dataset ;
+    rdfs:label "Gazetteer" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "gaz" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/gaz> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/gecko> a dcat:Dataset ;
+    rdfs:label "Genomics Cohorts Knowledge Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "gecko" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/gecko.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/genepio> a dcat:Dataset ;
+    rdfs:label "Genomic Epidemiology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "genepio" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/genepio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/geno> a dcat:Dataset ;
+    rdfs:label "GENO ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "geno" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/geno.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/geo> a dcat:Dataset ;
+    rdfs:label "Geographical Entity Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "geo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/geo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/gexo> a dcat:Dataset ;
+    rdfs:label "Gene Expression Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "gexo" ;
+    dcat:distribution <http://www.bio.ntnu.no/ontology/GeXO/gexo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/gno> a dcat:Dataset ;
+    rdfs:label "Glycan Naming Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "gno" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/gno.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/go> a dcat:Dataset ;
+    rdfs:label "Gene Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "go" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/go.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/gsso> a dcat:Dataset ;
+    rdfs:label "GSSO - the Gender, Sex, and Sexual Orientation ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "gsso" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/gsso.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hancestro> a dcat:Dataset ;
+    rdfs:label "Human Ancestry Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hancestro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/hancestro/hancestro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hao> a dcat:Dataset ;
+    rdfs:label "Hymenoptera Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/hao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hcao> a dcat:Dataset ;
+    rdfs:label "Human Cell Atlas Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hcao" ;
+    dcat:distribution <http://ontology.data.humancellatlas.org/ontologies/hcao> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hom> a dcat:Dataset ;
+    rdfs:label "Homology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hom" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/hom.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hp> a dcat:Dataset ;
+    rdfs:label "Human Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hp" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/hp.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hpath> a dcat:Dataset ;
+    rdfs:label "Histopathology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hpath" ;
+    dcat:distribution <https://github.com/Novartis/hpath> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hsapdv> a dcat:Dataset ;
+    rdfs:label "Human Developmental Stages" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hsapdv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/hsapdv.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/hso> a dcat:Dataset ;
+    rdfs:label "Health Surveillance Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "hso" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/hso.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/htn> a dcat:Dataset ;
+    rdfs:label "Hypertension Ontology For Clinical Data" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "htn" ;
+    dcat:distribution <https://raw.githubusercontent.com/aellenhicks/htn_owl/master/htn.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/iao> a dcat:Dataset ;
+    rdfs:label "Information Artifact Ontology (IAO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "iao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/iao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/iceo> a dcat:Dataset ;
+    rdfs:label "ICEO: Ontology of Integrative and Conjugative Elements" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "iceo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/2019/1/ICEO> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ico> a dcat:Dataset ;
+    rdfs:label "Informed Consent Ontology (ICO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ico" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ico.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ido> a dcat:Dataset ;
+    rdfs:label "Infectious Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ido" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ido.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/idocovid19> a dcat:Dataset ;
+    rdfs:label "The COVID-19 Infectious Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "idocovid19" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ido-covid-19.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/idomal> a dcat:Dataset ;
+    rdfs:label "Malaria Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "idomal" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/idomal.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ino> a dcat:Dataset ;
+    rdfs:label "INO: Interaction Network Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ino" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ino.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/kisao> a dcat:Dataset ;
+    rdfs:label "Kinetic Simulation Algorithm Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "kisao" ;
+    dcat:distribution <http://www.biomodels.net/kisao/KISAO#> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/labo> a dcat:Dataset ;
+    rdfs:label "clinical LABoratory Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "labo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/labo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/lbo> a dcat:Dataset ;
+    rdfs:label "Livestock Breed Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "lbo" ;
+    dcat:distribution <http://bioportal.bioontology.org/ontologies/LBO> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/lepao> a dcat:Dataset ;
+    rdfs:label "Lepidoptera Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "lepao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/lepao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ma> a dcat:Dataset ;
+    rdfs:label "Mouse adult gross anatomy" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ma" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ma.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mamo> a dcat:Dataset ;
+    rdfs:label "Mathematical Modelling Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mamo" ;
+    dcat:distribution <http://identifiers.org/mamo> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/maxo> a dcat:Dataset ;
+    rdfs:label "Medical Action Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "maxo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/maxo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mco> a dcat:Dataset ;
+    rdfs:label "Microbial Conditions Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mco.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mf> a dcat:Dataset ;
+    rdfs:label "Mental Functioning Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mf" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/MF.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mfmo> a dcat:Dataset ;
+    rdfs:label "Mammalian Feeding Muscle Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mfmo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mfmo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mfoem> a dcat:Dataset ;
+    rdfs:label "Emotion Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mfoem" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/MFOEM.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mfomd> a dcat:Dataset ;
+    rdfs:label "Mental Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mfomd" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/MFOMD.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mi> a dcat:Dataset ;
+    rdfs:label "Molecular Interactions Controlled Vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/miapa> a dcat:Dataset ;
+    rdfs:label "Minimum Information for A Phylogenetic Analysis (MIAPA) Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "miapa" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/miapa.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/micro> a dcat:Dataset ;
+    rdfs:label "Ontology of Prokaryotic Phenotypic and Metabolic Characters" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "micro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/MicrO.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/miro> a dcat:Dataset ;
+    rdfs:label "Mosquito insecticide resistance" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "miro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/miro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mmo> a dcat:Dataset ;
+    rdfs:label "Measurement method ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mmo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mmo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mmusdv> a dcat:Dataset ;
+    rdfs:label "Mouse Developmental Stages" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mmusdv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mmusdv.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mod> a dcat:Dataset ;
+    rdfs:label "Protein modification" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mod" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mod.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mondo> a dcat:Dataset ;
+    rdfs:label "Mondo Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mondo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mondo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mop> a dcat:Dataset ;
+    rdfs:label "MOP" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mop" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mop.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mp> a dcat:Dataset ;
+    rdfs:label "The Mammalian Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mp" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mp.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mpath> a dcat:Dataset ;
+    rdfs:label "Mouse pathology ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mpath" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mpath.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mpio> a dcat:Dataset ;
+    rdfs:label "Minimum PDDI Information Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mpio" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mpio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/mro> a dcat:Dataset ;
+    rdfs:label "MHC Restriction Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "mro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/mro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ms> a dcat:Dataset ;
+    rdfs:label "Mass spectrometry ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ms" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ms.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/msio> a dcat:Dataset ;
+    rdfs:label "Metabolomics Standards Initiative Ontology (MSIO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "msio" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/msio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/nbo> a dcat:Dataset ;
+    rdfs:label "Neuro Behavior Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "nbo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/nbo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ncbitaxon> a dcat:Dataset ;
+    rdfs:label "NCBI organismal classification" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ncbitaxon" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ncbitaxon.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ncit> a dcat:Dataset ;
+    rdfs:label "NCI Thesaurus OBO Edition" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ncit" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ncit.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ncro> a dcat:Dataset ;
+    rdfs:label "Non-Coding RNA Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ncro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ncro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/nmrcv> a dcat:Dataset ;
+    rdfs:label "nuclear magnetic resonance CV" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "nmrcv" ;
+    dcat:distribution <http://nmrML.org/nmrCV> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/nomen> a dcat:Dataset ;
+    rdfs:label "NOMEN - A nomenclatural ontology for biological names" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "nomen" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/NOMEN> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/oae> a dcat:Dataset ;
+    rdfs:label "OAE: Ontology of Adverse Events" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "oae" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/oae.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/oarcs> a dcat:Dataset ;
+    rdfs:label "Ontology of Arthropod Circulatory Systems" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "oarcs" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/oarcs.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/oba> a dcat:Dataset ;
+    rdfs:label "Ontology of Biological Attributes (OBA)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "oba" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/oba.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/obcs> a dcat:Dataset ;
+    rdfs:label "Ontology of Biological and Clinical Statistics" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "obcs" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/obcs.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/obi> a dcat:Dataset ;
+    rdfs:label "Ontology for Biomedical Investigations" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "obi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/obi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/obib> a dcat:Dataset ;
+    rdfs:label "Ontology for BIoBanking (OBIB)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "obib" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/obib.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ogg> a dcat:Dataset ;
+    rdfs:label "OGG: Ontology of Genes and Genomes" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ogg" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ogg.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ogi> a dcat:Dataset ;
+    rdfs:label "Ontology for genetic interval" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ogi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ogi> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ogms> a dcat:Dataset ;
+    rdfs:label "Ontology for General Medical Science" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ogms" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ogms.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ogsf> a dcat:Dataset ;
+    rdfs:label "Ontology of Genetic Susceptibility Factor" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ogsf" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ogsf-merged.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ohd> a dcat:Dataset ;
+    rdfs:label "Oral Health and Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ohd" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ohd.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ohmi> a dcat:Dataset ;
+    rdfs:label "OHMI: Ontology of Host-Microbiome Interactions" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ohmi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ohmi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ohpi> a dcat:Dataset ;
+    rdfs:label "OHPI: Ontology of Host-Pathogen Interactions" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ohpi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ohpi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/olatdv> a dcat:Dataset ;
+    rdfs:label "Medaka Developmental Stages" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "olatdv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/olatdv.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/om> a dcat:Dataset ;
+    rdfs:label "Ontology of units of Measure (OM)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "om" ;
+    dcat:distribution <http://www.ontology-of-units-of-measure.org/resource/om-2> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/omiabis> a dcat:Dataset ;
+    rdfs:label "Ontologized MIABIS" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "omiabis" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/omiabis> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/omit> a dcat:Dataset ;
+    rdfs:label "Ontology for MIRNA Target" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "omit" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/omit.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/omo> a dcat:Dataset ;
+    rdfs:label "OBO Metadata Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "omo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/omo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/omp> a dcat:Dataset ;
+    rdfs:label "Ontology of Microbial Phenotypes" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "omp" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/omp.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/omrse> a dcat:Dataset ;
+    rdfs:label "Ontology of Medically Related Social Entities" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "omrse" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/omrse.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/one> a dcat:Dataset ;
+    rdfs:label "Ontology for Nutritional Epidemiology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "one" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ONE> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ons> a dcat:Dataset ;
+    rdfs:label "Ontology for Nutritional Studies" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ons" ;
+    dcat:distribution <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/ons.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ontoavida> a dcat:Dataset ;
+    rdfs:label "OntoAvida: ontology for Avida digital evolution platform." ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ontoavida" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ontoavida.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ontoneo> a dcat:Dataset ;
+    rdfs:label "Obstetric and Neonatal Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ontoneo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ontoneo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/oostt> a dcat:Dataset ;
+    rdfs:label "Ontology of Organizational Structures of Trauma centers and Trauma Systems" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "oostt" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/oostt.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/opl> a dcat:Dataset ;
+    rdfs:label "Ontology for Parasite Lifecycle" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "opl" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/opl.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/opmi> a dcat:Dataset ;
+    rdfs:label "OPMI: Ontology of Precision Medicine and Investigation" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "opmi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/opmi.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ordo> a dcat:Dataset ;
+    rdfs:label "Orphanet Rare Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ordo" ;
+    dcat:distribution <http://www.orpha.net/ontology/ORDO_en_4.0.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ornaseq> a dcat:Dataset ;
+    rdfs:label "Ontology for RNA sequencing (ORNASEQ)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ornaseq" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ornaseq.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/orth> a dcat:Dataset ;
+    rdfs:label "Orthology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "orth" ;
+    dcat:distribution <http://purl.org/net/orth> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ovae> a dcat:Dataset ;
+    rdfs:label "OVAE: Ontology of Vaccine Adverse Events" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ovae" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ovae> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pato> a dcat:Dataset ;
+    rdfs:label "PATO - the Phenotype And Trait Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pato" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pato.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pcl> a dcat:Dataset ;
+    rdfs:label "Provisional Cell Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pcl" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pcl/pcl-full.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pco> a dcat:Dataset ;
+    rdfs:label "Population and Community Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pco.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pdro> a dcat:Dataset ;
+    rdfs:label "The Prescription of Drugs Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pdro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pdro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pdumdv> a dcat:Dataset ;
+    rdfs:label "Platynereis Developmental Stages" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pdumdv" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pdumdv.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/peco> a dcat:Dataset ;
+    rdfs:label "Plant Experimental Conditions Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "peco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/peco.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/phi> a dcat:Dataset ;
+    rdfs:label "PHI-base Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "phi" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/phi> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/phipo> a dcat:Dataset ;
+    rdfs:label "Pathogen Host Interactions Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "phipo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/phipo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/plana> a dcat:Dataset ;
+    rdfs:label "Planarian Anatomy Ontology (PLANA)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "plana" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/plana.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/planp> a dcat:Dataset ;
+    rdfs:label "Planarian Phenotype Ontology (PLANP)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "planp" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/planp.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/po> a dcat:Dataset ;
+    rdfs:label "Plant Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "po" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/po.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/poro> a dcat:Dataset ;
+    rdfs:label "Porifera (sponge) ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "poro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/poro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ppo> a dcat:Dataset ;
+    rdfs:label "Plant Phenology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ppo" ;
+    dcat:distribution <https://raw.githubusercontent.com/PlantPhenoOntology/ppo/master/ppo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pr> a dcat:Dataset ;
+    rdfs:label "PRotein Ontology (PRO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pr" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pr.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pride> a dcat:Dataset ;
+    rdfs:label "PRIDE Controlled Vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pride" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pride_cv.obo> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/probonto> a dcat:Dataset ;
+    rdfs:label "Probability Distribution Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "probonto" ;
+    dcat:distribution <http://www.probonto.org/ontology> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/prov> a dcat:Dataset ;
+    rdfs:label "Provenance Ontology (PROV-O)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "prov" ;
+    dcat:distribution <http://www.w3.org/ns/prov-o#> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/psdo> a dcat:Dataset ;
+    rdfs:label "Performance Summary Display Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "psdo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/psdo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pso> a dcat:Dataset ;
+    rdfs:label "Plant Stress Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pso" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pso.owl#> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/pw> a dcat:Dataset ;
+    rdfs:label "Pathway ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "pw" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/pw.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/rbo> a dcat:Dataset ;
+    rdfs:label "Radiation Biology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "rbo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/rbo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/reproduceme> a dcat:Dataset ;
+    rdfs:label "REPRODUCE-ME Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "reproduceme" ;
+    dcat:distribution <https://w3id.org/reproduceme> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/reto> a dcat:Dataset ;
+    rdfs:label "Regulation of Transcription Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "reto" ;
+    dcat:distribution <http://www.bio.ntnu.no/ontology/ReTO/reto.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/rex> a dcat:Dataset ;
+    rdfs:label "Physico-chemical process" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "rex" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/rex.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/rexo> a dcat:Dataset ;
+    rdfs:label "Regulation of Gene Expression Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "rexo" ;
+    dcat:distribution <http://www.bio.ntnu.no/ontology/ReXO/rexo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/rnao> a dcat:Dataset ;
+    rdfs:label "The RNA Ontology (RNAO): An Ontology for Integrating RNA Sequence and Structure Data" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "rnao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/rnao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/ro> a dcat:Dataset ;
+    rdfs:label "OBO Relations Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "ro" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/ro.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/rs> a dcat:Dataset ;
+    rdfs:label "Rat Strain Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "rs" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/rs.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/rxno> a dcat:Dataset ;
+    rdfs:label "RXNO" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "rxno" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/rxno.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/sbo> a dcat:Dataset ;
+    rdfs:label "Systems Biology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "sbo" ;
+    dcat:distribution <http://biomodels.net/SBO/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/scdo> a dcat:Dataset ;
+    rdfs:label "Sickle Cell Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "scdo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/scdo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/sdgio> a dcat:Dataset ;
+    rdfs:label "Sustainable Development Goals Interface Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "sdgio" ;
+    dcat:distribution <http://purl.unep.org/sdg/sdgio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/sepio> a dcat:Dataset ;
+    rdfs:label "Scientific Evidence and Provenance Information Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "sepio" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/sepio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/sibo> a dcat:Dataset ;
+    rdfs:label "Social Insect Behavior Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "sibo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/sibo> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/sio> a dcat:Dataset ;
+    rdfs:label "Semanticscience Integrated Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "sio" ;
+    dcat:distribution <http://semanticscience.org/ontology/sio.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/snomed> a dcat:Dataset ;
+    rdfs:label "SNOMED CT (International Edition)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "snomed" ;
+    dcat:distribution <http://snomed.info/sct/900000000000207008> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/so> a dcat:Dataset ;
+    rdfs:label "Sequence types and features ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "so" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/so.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/spd> a dcat:Dataset ;
+    rdfs:label "Spider Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "spd" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/spd.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/srao> a dcat:Dataset ;
+    rdfs:label "FAIRsharing Subject Ontology (SRAO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "srao" ;
+    dcat:distribution <http://www.fairsharing.org/ontology/subject/SRAO.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/stato> a dcat:Dataset ;
+    rdfs:label "STATO: the statistical methods ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "stato" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/stato.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/swo> a dcat:Dataset ;
+    rdfs:label "SWO (The Software Ontology)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "swo" ;
+    dcat:distribution <http://www.ebi.ac.uk/swo/swo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/symp> a dcat:Dataset ;
+    rdfs:label "Symptom Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "symp" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/symp.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/tads> a dcat:Dataset ;
+    rdfs:label "Tick Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "tads" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/tads.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/taxrank> a dcat:Dataset ;
+    rdfs:label "Taxonomic rank vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "taxrank" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/taxrank> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/teddy> a dcat:Dataset ;
+    rdfs:label "Terminology for Description of Dynamics" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "teddy" ;
+    dcat:distribution <http://identifiers.org/teddy/> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/tgma> a dcat:Dataset ;
+    rdfs:label "Mosquito gross anatomy ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "tgma" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/tgma.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/to> a dcat:Dataset ;
+    rdfs:label "Plant Trait Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "to" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/to.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/trans> a dcat:Dataset ;
+    rdfs:label "Pathogen Transmission Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "trans" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/trans.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/tto> a dcat:Dataset ;
+    rdfs:label "Teleost taxonomy ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "tto" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/tto.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/txpo> a dcat:Dataset ;
+    rdfs:label "TOXic Process Ontology (TXPO)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "txpo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/txpo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/uberon> a dcat:Dataset ;
+    rdfs:label "Uber-anatomy ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "uberon" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/uberon.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/unimod> a dcat:Dataset ;
+    rdfs:label "Unimod protein modification database for mass spectrometry" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "unimod" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/unimod.obo> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/uo> a dcat:Dataset ;
+    rdfs:label "Units of measurement ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "uo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/uo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/upa> a dcat:Dataset ;
+    rdfs:label "Unipathway" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "upa" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/upa.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/upheno> a dcat:Dataset ;
+    rdfs:label "Unified phenotype ontology (uPheno)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "upheno" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/upheno.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/vario> a dcat:Dataset ;
+    rdfs:label "Variation Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "vario" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/vario.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/vido> a dcat:Dataset ;
+    rdfs:label "The Virus Infectious Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "vido" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/vido.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/vo> a dcat:Dataset ;
+    rdfs:label "Vaccine Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "vo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/vo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/vt> a dcat:Dataset ;
+    rdfs:label "Vertebrate trait ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "vt" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/vt> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/vto> a dcat:Dataset ;
+    rdfs:label "Vertebrate Taxonomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "vto" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/vto.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/wbbt> a dcat:Dataset ;
+    rdfs:label "C. elegans Gross Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "wbbt" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/wbbt.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/wbls> a dcat:Dataset ;
+    rdfs:label "C. elegans Development Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "wbls" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/wbls.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/wbphenotype> a dcat:Dataset ;
+    rdfs:label "C elegans Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "wbphenotype" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/wbphenotype.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/xao> a dcat:Dataset ;
+    rdfs:label "Xenopus Anatomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "xao" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/xao.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/xco> a dcat:Dataset ;
+    rdfs:label "Experimental condition ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "xco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/xco.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/xl> a dcat:Dataset ;
+    rdfs:label "Cross-linker reagents ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "xl" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/xl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/xlmod> a dcat:Dataset ;
+    rdfs:label "HUPO-PSI cross-linking and derivatization reagents controlled vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "xlmod" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/xlmod.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/xpo> a dcat:Dataset ;
+    rdfs:label "Xenopus Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "xpo" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/xpo.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/zeco> a dcat:Dataset ;
+    rdfs:label "Zebrafish Experimental Conditions Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "zeco" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/zeco.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/zfa> a dcat:Dataset ;
+    rdfs:label "Zebrafish Anatomy Ontology (ZFA)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "zfa" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/zfa.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/zfs> a dcat:Dataset ;
+    rdfs:label "Zebrafish developmental stages ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "zfs" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/zfs.owl> .
+
+<https://www.ebi.ac.uk/ols/api/ontology/zp> a dcat:Dataset ;
+    rdfs:label "Zebrafish Phenotype Ontology (ZP)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/ols> ;
+    skos:notation "zp" ;
+    dcat:distribution <http://purl.obolibrary.org/obo/zp.owl> .
+
+<http://biomodels.net/SBO/> a dcat:Distribution .
+
+<http://bioportal.bioontology.org/ontologies/LBO> a dcat:Distribution .
+
+<http://dicom.nema.org/resources/ontology/DCM/> a dcat:Distribution .
+
+<http://edamontology.org/> a dcat:Distribution .
+
+<http://enanomapper.github.io/ontologies/enanomapper.owl> a dcat:Distribution .
+
+<http://humanbehaviourchange.org/ontology/bcio.owl> a dcat:Distribution .
+
+<http://identifiers.org/mamo> a dcat:Distribution .
+
+<http://identifiers.org/teddy/> a dcat:Distribution .
+
+<http://nmrML.org/nmrCV> a dcat:Distribution .
+
+<http://ontology.data.humancellatlas.org/ontologies/hcao> a dcat:Distribution .
+
+<http://opendata.inra.fr/ATOL/atol_ontology> a dcat:Distribution .
+
+<http://opendata.inra.fr/EOL/eol_ontology> a dcat:Distribution .
+
+<http://purl.allotrope.org/voc/afo/merged-OLS/REC/2019/05/10> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/2019/1/ICEO> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/EPSO> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/MF.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/MFOEM.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/MFOMD.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/MicrO.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/NOMEN> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ONE> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/aeo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/agro-edit.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/aism.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/amphx/amphx.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/antibiotic_resistance.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/apo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/apollo_sv.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/bco.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/bfo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/bspo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/bto.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/caro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cco> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cdao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cdno.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ceph.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/chebi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/chiro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/chmo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cido.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cio.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cl.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/clao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/clo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/clyh/clyh.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cmo.obo> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cob.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/colao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/covoc.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cteno.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cto.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/cvdo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ddanat.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ddpheno.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/dideo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/doid.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/doid/imports/disdriv_import.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/dpo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/dron.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/duo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ecao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/eco.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ecocore.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ecto.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ehdaa2.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/emapa.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ensembl-glossary.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/envo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ero.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/eupath.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/exo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fbbi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fbbt.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fbcv.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fbdv.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fideo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fix.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/flopo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fma.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fobi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/foodon.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fovt.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/fypo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/gaz> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/gecko.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/genepio.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/geno.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/geo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/gno.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/go.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/gsso.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/hancestro/hancestro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/hao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/hom.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/hp.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/hsapdv.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/hso.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/iao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ico.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ido-covid-19.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ido.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/idomal.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ino.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/labo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/lepao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ma.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/maxo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mco.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mfmo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/miapa.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/miro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mmo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mmusdv.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mod.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mondo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mop.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mp.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mpath.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mpio.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/mro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ms.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/msio.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/nbo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ncbitaxon.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ncit.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ncro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/oae.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/oarcs.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/oba.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/obcs.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/obi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/obib.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ogg.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ogi> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ogms.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ogsf-merged.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ohd.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ohmi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ohpi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/olatdv.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/omiabis> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/omit.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/omo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/omp.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/omrse.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ontoavida.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ontoneo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/oostt.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/opl.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/opmi.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ornaseq.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ovae> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pato.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pcl/pcl-full.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pco.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pdro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pdumdv.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/peco.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/phi> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/phipo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/plana.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/planp.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/po.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/poro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pr.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pride_cv.obo> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/psdo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pso.owl#> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/pw.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/rbo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/rex.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/rnao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/ro.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/rs.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/rxno.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/scdo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/sepio.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/sibo> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/so.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/spd.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/stato.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/symp.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/tads.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/taxrank> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/tgma.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/to.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/trans.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/tto.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/txpo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/uberon.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/unimod.obo> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/uo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/upa.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/upheno.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/vario.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/vido.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/vo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/vt> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/vto.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/wbbt.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/wbls.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/wbphenotype.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/xao.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/xco.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/xl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/xlmod.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/xpo.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/zeco.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/zfa.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/zfs.owl> a dcat:Distribution .
+
+<http://purl.obolibrary.org/obo/zp.owl> a dcat:Distribution .
+
+<http://purl.org/net/orth> a dcat:Distribution .
+
+<http://purl.unep.org/sdg/sdgio.owl> a dcat:Distribution .
+
+<http://scipion.i2pc.es/ontology/cryoem.owl> a dcat:Distribution .
+
+<http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl> a dcat:Distribution .
+
+<http://semanticscience.org/ontology/sio.owl> a dcat:Distribution .
+
+<http://snomed.info/sct/900000000000207008> a dcat:Distribution .
+
+<http://www.bio.ntnu.no/ontology/GeXO/gexo.owl> a dcat:Distribution .
+
+<http://www.bio.ntnu.no/ontology/ReTO/reto.owl> a dcat:Distribution .
+
+<http://www.bio.ntnu.no/ontology/ReXO/rexo.owl> a dcat:Distribution .
+
+<http://www.bioassayontology.org/bao/bao_complete.owl> a dcat:Distribution .
+
+<http://www.biomodels.net/kisao/KISAO#> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_320/Rice> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_321/Wheat> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_321:ROOT/Wheat> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_322/Maize> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_323/Barley%20Trait%20Dictionary> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_324/Sorghum> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_325/Banana> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_326/Coconut> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_330/Potato> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_334/Cassava> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_336/Soybean> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_337/Groundnut> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_338/Chickpea> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_339/Lentil> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_340/Cowpea> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_341/Pigeonpea> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_343/Yam> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_345/Brachiaria> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_346/Mungbean> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_348/Brassica> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_350/Oat> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_356/Vitis> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_358/Cotton%20Ontology> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_359/Sunflower> a dcat:Distribution .
+
+<http://www.cropontology.org/ontology/CO_365/Fababean> a dcat:Distribution .
+
+<http://www.ebi.ac.uk/cmpo/cmpo.owl> a dcat:Distribution .
+
+<http://www.ebi.ac.uk/efo/efo.owl> a dcat:Distribution .
+
+<http://www.ebi.ac.uk/swo/swo.owl> a dcat:Distribution .
+
+<http://www.fairsharing.org/ontology/subject/SRAO.owl> a dcat:Distribution .
+
+<http://www.ontology-of-units-of-measure.org/resource/om-2> a dcat:Distribution .
+
+<http://www.orpha.net/ontology/ORDO_en_4.0.owl> a dcat:Distribution .
+
+<http://www.probonto.org/ontology> a dcat:Distribution .
+
+<http://www.w3.org/ns/prov-o#> a dcat:Distribution .
+
+<https://bio.scai.fraunhofer.de/ontology/epilepsy> a dcat:Distribution .
+
+<https://github.com/Novartis/hpath> a dcat:Distribution .
+
+<https://raw.githubusercontent.com/PlantPhenoOntology/ppo/master/ppo.owl> a dcat:Distribution .
+
+<https://raw.githubusercontent.com/aellenhicks/htn_owl/master/htn.owl> a dcat:Distribution .
+
+<https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/ons.owl> a dcat:Distribution .
+
+<https://w3id.org/reproduceme> a dcat:Distribution .
+
+<https://cropontology.org/rdf/> a dcat:Distribution .
+

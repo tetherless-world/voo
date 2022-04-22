@@ -1,0 +1,685 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://sweetontology.net/matrAnimal>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoWind>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenSolid>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandOrographic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaMath>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenHydro>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanEnvirControl>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propFunction>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpaceLocation>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprMathFunctionOrthogonal>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propCharge>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataServiceReduction>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propOrdinal>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateSpectralLine>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaClimate>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenEnvirImpact>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/procChemical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateTimeFrequency>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataServiceGeospatial>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSpaceGeometry3D>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenElecMag>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propDimensionlessRatio>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoWindMesoscale>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrIsotope>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandProtected>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/alignment/ssn>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRoleRepresentative>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataServiceValidation>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propCount>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/procPhysical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/state>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpaceThickness>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenWave>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanEnvirAssessment>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanTransportation>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propTimeFrequency>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenSystemComplexity>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenBiol>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanDecision>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanJurisdiction>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrMineral>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpeed>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrElementalMolecule>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoFront>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propDifference>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateStorm>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSciComponent>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSciMethodology>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmRegion>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenCryo>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprTime>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmHydroBody>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSciFunction>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandFluvial>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoPressure>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpaceMultidimensional>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/rela>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenOcean>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateVisibility>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propEnergyFlux>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrNaturalResource>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propCapacity>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSpaceDirection>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrAerosol>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRoleGeographic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenOceanDynamics>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmo>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprMath>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSpaceGeometry>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrRockIgneous>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateDataProcessing>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/procWave>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phen>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenWaveNoise>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataFormat>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmBiolBiome>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataModel>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenFluidInstability>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateTimeCycle>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmAtmoBoundaryLayer>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrEquipment>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateEnergyFlux>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propDiffusivity>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/human>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrElement>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateSpaceConfiguration>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propTime>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/prop>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenGeol>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprMathSolution>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoSky>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propIndex>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propTemperature>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenCycleMaterial>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateBiological>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matr>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRoleChemical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmOceanFeature>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/proc>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateChemical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmGeolOrogen>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenPlanetClimate>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprMathFunction>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaProvenance>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenHelio>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSpaceReferenceSystem>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propConductivity>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprTimeDay>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmGeolConstituent>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmAstroHelio>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenOceanCoastal>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propRotation>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenMixing>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoFog>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenGeolFault>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaSci>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoPrecipitation>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmAstroStar>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandform>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmClimateZone>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRoleBiological>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenCycle>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataServiceAnalysis>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateSpectralBand>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmSoil>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenReaction>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandVolcanic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrCompound>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmEarthReference>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRoleTrust>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmHydro>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmGeolOceanic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrFacility>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateThermodynamic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrWater>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataProduct>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propTemperatureGradient>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateOrdinal>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenGeolTectonic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSciLaw>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandCoastal>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenSystem>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenFluidDynamics>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrInstrument>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/procStateChange>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRealm>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoTransport>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoLightning>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmGeolBasin>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateSpace>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprMathOperation>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprTimeSeason>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propFraction>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenFluidTransport>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propCategorical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrPlant>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateSolid>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprMathGraph>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanKnowledgeDomain>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propQuantity>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propChemical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmCryo>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propEnergy>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanEnvirStandards>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/alignment/dcat>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenEnergy>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandAeolian>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenGeolGeomorphology>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propBinary>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propMass>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmOcean>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpaceDirection>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrSediment>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realm>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSciModel>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmAtmo>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrBiomass>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateSystem>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandTectonic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propMassFlux>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrParticle>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateTimeGeologic>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprMathStatistics>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenAtmoCloud>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRoleImpact>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrRock>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSciUnits>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateTime>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateFluid>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSciProvenance>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenEcology>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateRole>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpace>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmOceanFloor>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmGeol>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrEnergy>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrMicrobiota>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaChemical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaSpace>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpaceHeight>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmLandGlacial>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmAtmoWeather>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanTechReadiness>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/sweetAll>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprDataService>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/statePhysical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrOrganicCompound>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmAstroBody>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanResearch>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/stateSpaceScale>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenStar>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanCommerce>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propPressure>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/repr>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrIon>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/matrIndustrial>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanAgriculture>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaPhysical>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaHuman>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/relaTime>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenGeolSeismicity>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/realmGeolContinental>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSpaceCoordinate>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/reprSpace>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/phenGeolVolcano>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/humanEnvirConservation>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .
+
+<http://sweetontology.net/propSpaceDistance>
+        dcterms:isPartOf  <http://sweetontology.net/sweetAll> .

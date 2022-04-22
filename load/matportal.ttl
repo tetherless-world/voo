@@ -1,0 +1,149 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://rest.matportal.org/ontologies/AMONTOLOGY> a dcat:Dataset ;
+    rdfs:label "Aditive Manufacturing Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "AMONTOLOGY" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/AMONTOLOGY/download> .
+
+<http://rest.matportal.org/ontologies/BUILDMAT> a dcat:Dataset ;
+    rdfs:label "Building Material Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "BUILDMAT" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/BUILDMAT/download> .
+
+<http://rest.matportal.org/ontologies/BWMD-DOMAIN> a dcat:Dataset ;
+    rdfs:label "BWMD Domain Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "BWMD-DOMAIN" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/BWMD-DOMAIN/download> .
+
+<http://rest.matportal.org/ontologies/BWMD-MID> a dcat:Dataset ;
+    rdfs:label "BWMD Mid Level Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "BWMD-MID" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/BWMD-MID/download> .
+
+<http://rest.matportal.org/ontologies/CCO> a dcat:Dataset ;
+    rdfs:label "Common Core Ontologies (Merged)" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "CCO" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/CCO/download> .
+
+<http://rest.matportal.org/ontologies/DEB> a dcat:Dataset ;
+    rdfs:label "Devices, Experimental scaffolds and Biomaterials Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "DEB" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/DEB/download> .
+
+<http://rest.matportal.org/ontologies/EMMO> a dcat:Dataset ;
+    rdfs:label "European Materials Modelling Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "EMMO" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/EMMO/download> .
+
+<http://rest.matportal.org/ontologies/LPBFO> a dcat:Dataset ;
+    rdfs:label "Laser Powder Bed Fusion Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "LPBFO" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/LPBFO/download> .
+
+<http://rest.matportal.org/ontologies/MATONTO> a dcat:Dataset ;
+    rdfs:label "MatOnto Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MATONTO" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MATONTO/download> .
+
+<http://rest.matportal.org/ontologies/MDO-FULL> a dcat:Dataset ;
+    rdfs:label "Materials Design Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MDO-FULL" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MDO-FULL/download> .
+
+<http://rest.matportal.org/ontologies/MM> a dcat:Dataset ;
+    rdfs:label "MaterialsMine" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MM" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MM/download> .
+
+<http://rest.matportal.org/ontologies/MOCO> a dcat:Dataset ;
+    rdfs:label "Mat-O-Lab container ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MOCO" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MOCO/download> .
+
+<http://rest.matportal.org/ontologies/MOL_TENSILE> a dcat:Dataset ;
+    rdfs:label "Matolab Tensile Test Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MOL_TENSILE" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MOL_TENSILE/download> .
+
+<http://rest.matportal.org/ontologies/MP-SCHM> a dcat:Dataset ;
+    rdfs:label "Material Properties Annotation properties that includes the Dublin Core" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MP-SCHM" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MP-SCHM/download> .
+
+<http://rest.matportal.org/ontologies/MPAP> a dcat:Dataset ;
+    rdfs:label "MarketPlace Agent Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MPAP" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MPAP/download> .
+
+<http://rest.matportal.org/ontologies/MSEO> a dcat:Dataset ;
+    rdfs:label "Material Science and Engineering Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "MSEO" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/MSEO/download> .
+
+<http://rest.matportal.org/ontologies/NMRRVOCAB> a dcat:Dataset ;
+    rdfs:label "Materials Data Vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "NMRRVOCAB" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/NMRRVOCAB/download> .
+
+<http://rest.matportal.org/ontologies/VIMMP_ONTOLOGIES> a dcat:Dataset ;
+    rdfs:label "Virtual Materials Marketplace (VIMMP) Ontologies" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/matportal> ;
+    skos:notation "VIMMP_ONTOLOGIES" ;
+    dcat:distribution <http://rest.matportal.org/ontologies/VIMMP_ONTOLOGIES/download> .
+
+<http://rest.matportal.org/ontologies/AMONTOLOGY/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/BUILDMAT/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/BWMD-DOMAIN/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/BWMD-MID/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/CCO/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/DEB/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/EMMO/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/LPBFO/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MATONTO/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MDO-FULL/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MM/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MOCO/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MOL_TENSILE/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MP-SCHM/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MPAP/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/MSEO/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/NMRRVOCAB/download> a dcat:Distribution .
+
+<http://rest.matportal.org/ontologies/VIMMP_ONTOLOGIES/download> a dcat:Distribution .
+

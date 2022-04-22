@@ -1,0 +1,805 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://data.bioontology.org/ontologies/AD-DROP> a dcat:Dataset ;
+    rdfs:label "Alzheimer Disease Relevance Ontology by Process" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "AD-DROP" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/AD-DROP/download> .
+
+<https://data.bioontology.org/ontologies/ADCAD> a dcat:Dataset ;
+    rdfs:label "Arctic Data Center Academic Disciplines Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ADCAD" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ADCAD/download> .
+
+<https://data.bioontology.org/ontologies/AGRO> a dcat:Dataset ;
+    rdfs:label "AGRonomy Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "AGRO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/AGRO/download> .
+
+<https://data.bioontology.org/ontologies/APAONTO> a dcat:Dataset ;
+    rdfs:label "Psychology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "APAONTO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/APAONTO/download> .
+
+<https://data.bioontology.org/ontologies/AURA> a dcat:Dataset ;
+    rdfs:label "KB_Bio_101" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "AURA" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/AURA/download> .
+
+<https://data.bioontology.org/ontologies/BE> a dcat:Dataset ;
+    rdfs:label "Bioentities" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "BE" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/BE/download> .
+
+<https://data.bioontology.org/ontologies/BIFO> a dcat:Dataset ;
+    rdfs:label "Biofilm Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "BIFO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/BIFO/download> .
+
+<https://data.bioontology.org/ontologies/BIPOM> a dcat:Dataset ;
+    rdfs:label "Biological interlocked Process Ontology for metabolism" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "BIPOM" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/BIPOM/download> .
+
+<https://data.bioontology.org/ontologies/BIPON> a dcat:Dataset ;
+    rdfs:label "Bacterial interlocked Process ONtology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "BIPON" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/BIPON/download> .
+
+<https://data.bioontology.org/ontologies/BIRNLEX> a dcat:Dataset ;
+    rdfs:label "Biomedical Informatics Research Network Project Lexicon" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "BIRNLEX" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/BIRNLEX/download> .
+
+<https://data.bioontology.org/ontologies/BP-METADATA> a dcat:Dataset ;
+    rdfs:label "BioPortal Metadata Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "BP-METADATA" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/BP-METADATA/download> .
+
+<https://data.bioontology.org/ontologies/BRO> a dcat:Dataset ;
+    rdfs:label "Biomedical Resource Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "BRO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/BRO/download> .
+
+<https://data.bioontology.org/ontologies/CANONT> a dcat:Dataset ;
+    rdfs:label "Upper-Level Cancer Ontology " ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "CANONT" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/CANONT/download> .
+
+<https://data.bioontology.org/ontologies/CCONT> a dcat:Dataset ;
+    rdfs:label "Cell Culture Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "CCONT" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/CCONT/download> .
+
+<https://data.bioontology.org/ontologies/CDPEO> a dcat:Dataset ;
+    rdfs:label "Chronic Disease Patient Education Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "CDPEO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/CDPEO/download> .
+
+<https://data.bioontology.org/ontologies/CHEAR> a dcat:Dataset ;
+    rdfs:label "Children's Health Exposure Analysis Resource" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "CHEAR" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/CHEAR/download> .
+
+<https://data.bioontology.org/ontologies/COGAT> a dcat:Dataset ;
+    rdfs:label "Cognitive Atlas Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "COGAT" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/COGAT/download> .
+
+<https://data.bioontology.org/ontologies/COGPO> a dcat:Dataset ;
+    rdfs:label "Cognitive Paradigm Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "COGPO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/COGPO/download> .
+
+<https://data.bioontology.org/ontologies/CRO> a dcat:Dataset ;
+    rdfs:label "Contributor Role Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "CRO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/CRO/download> .
+
+<https://data.bioontology.org/ontologies/CST> a dcat:Dataset ;
+    rdfs:label "Cancer Staging Terms" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "CST" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/CST/download> .
+
+<https://data.bioontology.org/ontologies/CTENO> a dcat:Dataset ;
+    rdfs:label "Ctenophore Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "CTENO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/CTENO/download> .
+
+<https://data.bioontology.org/ontologies/DADA> a dcat:Dataset ;
+    rdfs:label "dada" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "DADA" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/DADA/download> .
+
+<https://data.bioontology.org/ontologies/DAO> a dcat:Dataset ;
+    rdfs:label "Druggable Antibody Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "DAO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/DAO/download> .
+
+<https://data.bioontology.org/ontologies/DELETE> a dcat:Dataset ;
+    rdfs:label "Delete test" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "DELETE" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/DELETE/download> .
+
+<https://data.bioontology.org/ontologies/DOREMUS-KEYS> a dcat:Dataset ;
+    rdfs:label "Doremus List of Keys" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "DOREMUS-KEYS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/DOREMUS-KEYS/download> .
+
+<https://data.bioontology.org/ontologies/DRPSNPTO> a dcat:Dataset ;
+    rdfs:label "Dementia-Related Psychotic Symptoms Non-Pharmacological Treatment Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "DRPSNPTO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/DRPSNPTO/download> .
+
+<https://data.bioontology.org/ontologies/EDDA> a dcat:Dataset ;
+    rdfs:label "EDDA Study Designs Taxonomy" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "EDDA" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/EDDA/download> .
+
+<https://data.bioontology.org/ontologies/EGO> a dcat:Dataset ;
+    rdfs:label "Epigenome Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "EGO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/EGO/download> .
+
+<https://data.bioontology.org/ontologies/EMAPA> a dcat:Dataset ;
+    rdfs:label "Mouse gross anatomy and development, timed" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "EMAPA" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/EMAPA/download> .
+
+<https://data.bioontology.org/ontologies/ENVS_VARIABLES> a dcat:Dataset ;
+    rdfs:label "ENVS variables" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ENVS_VARIABLES" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ENVS_VARIABLES/download> .
+
+<https://data.bioontology.org/ontologies/EVI> a dcat:Dataset ;
+    rdfs:label "Evidence Graph Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "EVI" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/EVI/download> .
+
+<https://data.bioontology.org/ontologies/FALDO> a dcat:Dataset ;
+    rdfs:label "Feature Annotation Location Description Ontology " ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "FALDO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/FALDO/download> .
+
+<https://data.bioontology.org/ontologies/FB-CV> a dcat:Dataset ;
+    rdfs:label "FlyBase Controlled Vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "FB-CV" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/FB-CV/download> .
+
+<https://data.bioontology.org/ontologies/FHHO> a dcat:Dataset ;
+    rdfs:label "Family Health History Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "FHHO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/FHHO/download> .
+
+<https://data.bioontology.org/ontologies/FOAF> a dcat:Dataset ;
+    rdfs:label "Friend of a Friend Vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "FOAF" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/FOAF/download> .
+
+<https://data.bioontology.org/ontologies/GAMUTS> a dcat:Dataset ;
+    rdfs:label "Radiology Gamuts Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "GAMUTS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/GAMUTS/download> .
+
+<https://data.bioontology.org/ontologies/GBM> a dcat:Dataset ;
+    rdfs:label "Glioblastoma" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "GBM" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/GBM/download> .
+
+<https://data.bioontology.org/ontologies/GDCO> a dcat:Dataset ;
+    rdfs:label "Data Collection Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "GDCO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/GDCO/download> .
+
+<https://data.bioontology.org/ontologies/GEOSPECIES> a dcat:Dataset ;
+    rdfs:label "GeoSpecies Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "GEOSPECIES" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/GEOSPECIES/download> .
+
+<https://data.bioontology.org/ontologies/GFO-BIO> a dcat:Dataset ;
+    rdfs:label "General Formal Ontology for Biology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "GFO-BIO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/GFO-BIO/download> .
+
+<https://data.bioontology.org/ontologies/HEIO> a dcat:Dataset ;
+    rdfs:label "Regional Healthcare System Interoperability and Information Exchange Measurement Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "HEIO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/HEIO/download> .
+
+<https://data.bioontology.org/ontologies/HIVMT> a dcat:Dataset ;
+    rdfs:label "HIVMutation" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "HIVMT" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/HIVMT/download> .
+
+<https://data.bioontology.org/ontologies/HIVO004> a dcat:Dataset ;
+    rdfs:label "HIVOntologymain.owl" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "HIVO004" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/HIVO004/download> .
+
+<https://data.bioontology.org/ontologies/HL7> a dcat:Dataset ;
+    rdfs:label "Health Level Seven Reference Implementation Model, Version 3" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "HL7" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/HL7/download> .
+
+<https://data.bioontology.org/ontologies/HOOM> a dcat:Dataset ;
+    rdfs:label "HPO - ORDO Ontological Module" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "HOOM" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/HOOM/download> .
+
+<https://data.bioontology.org/ontologies/HP_O> a dcat:Dataset ;
+    rdfs:label "Hypersensitivity pneumonitis ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "HP_O" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/HP_O/download> .
+
+<https://data.bioontology.org/ontologies/HTO> a dcat:Dataset ;
+    rdfs:label "Horridge Test Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "HTO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/HTO/download> .
+
+<https://data.bioontology.org/ontologies/ICO> a dcat:Dataset ;
+    rdfs:label "Informed Consent Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ICO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ICO/download> .
+
+<https://data.bioontology.org/ontologies/IDO> a dcat:Dataset ;
+    rdfs:label "Infectious Disease Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "IDO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/IDO/download> .
+
+<https://data.bioontology.org/ontologies/ILLNESSINJURY> a dcat:Dataset ;
+    rdfs:label "Illness and Injury" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ILLNESSINJURY" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ILLNESSINJURY/download> .
+
+<https://data.bioontology.org/ontologies/ISO19110> a dcat:Dataset ;
+    rdfs:label "ISO 19110 Methodology for Feature Cataloguing" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ISO19110" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ISO19110/download> .
+
+<https://data.bioontology.org/ontologies/ISO19115ROLES> a dcat:Dataset ;
+    rdfs:label "ISO 19115 Role Codes" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ISO19115ROLES" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ISO19115ROLES/download> .
+
+<https://data.bioontology.org/ontologies/LIFO> a dcat:Dataset ;
+    rdfs:label "Life Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "LIFO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/LIFO/download> .
+
+<https://data.bioontology.org/ontologies/M4M19-SUBS> a dcat:Dataset ;
+    rdfs:label "M4M19 Subjects" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "M4M19-SUBS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/M4M19-SUBS/download> .
+
+<https://data.bioontology.org/ontologies/MARC-RELATORS> a dcat:Dataset ;
+    rdfs:label "MARC Code List for Relators" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MARC-RELATORS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MARC-RELATORS/download> .
+
+<https://data.bioontology.org/ontologies/MATRCOMPOUND> a dcat:Dataset ;
+    rdfs:label "Material Compound" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MATRCOMPOUND" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MATRCOMPOUND/download> .
+
+<https://data.bioontology.org/ontologies/MEDO> a dcat:Dataset ;
+    rdfs:label "Mouse Experimental Design Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MEDO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MEDO/download> .
+
+<https://data.bioontology.org/ontologies/MHMO> a dcat:Dataset ;
+    rdfs:label "Mental Health Management Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MHMO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MHMO/download> .
+
+<https://data.bioontology.org/ontologies/MI> a dcat:Dataset ;
+    rdfs:label "Molecular Interactions" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MI" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MI/download> .
+
+<https://data.bioontology.org/ontologies/MOOCCIADO> a dcat:Dataset ;
+    rdfs:label "Molgula occidentalis Anatomy and Development Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MOOCCIADO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MOOCCIADO/download> .
+
+<https://data.bioontology.org/ontologies/MOOCCUADO> a dcat:Dataset ;
+    rdfs:label "Molgula occulta Anatomy and Development Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MOOCCUADO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MOOCCUADO/download> .
+
+<https://data.bioontology.org/ontologies/MOP> a dcat:Dataset ;
+    rdfs:label "Molecular Process Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "MOP" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/MOP/download> .
+
+<https://data.bioontology.org/ontologies/NCRO> a dcat:Dataset ;
+    rdfs:label "Non-coding RNA Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "NCRO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/NCRO/download> .
+
+<https://data.bioontology.org/ontologies/NEO> a dcat:Dataset ;
+    rdfs:label "Neurologic Examination Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "NEO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/NEO/download> .
+
+<https://data.bioontology.org/ontologies/NGBO> a dcat:Dataset ;
+    rdfs:label "Next Generation Biobanking Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "NGBO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/NGBO/download> .
+
+<https://data.bioontology.org/ontologies/NIFDYS> a dcat:Dataset ;
+    rdfs:label "Neuroscience Information Framework (NIF) Dysfunction Ontlogy" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "NIFDYS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/NIFDYS/download> .
+
+<https://data.bioontology.org/ontologies/OA> a dcat:Dataset ;
+    rdfs:label "Web Annotation Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OA" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OA/download> .
+
+<https://data.bioontology.org/ontologies/OARCS> a dcat:Dataset ;
+    rdfs:label "Ontology of Arthropod Circulatory Systems" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OARCS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OARCS/download> .
+
+<https://data.bioontology.org/ontologies/OBOREL> a dcat:Dataset ;
+    rdfs:label "Relations Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OBOREL" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OBOREL/download> .
+
+<https://data.bioontology.org/ontologies/OFSMR> a dcat:Dataset ;
+    rdfs:label "Open Predictive Microbiology Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OFSMR" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OFSMR/download> .
+
+<https://data.bioontology.org/ontologies/OGMS> a dcat:Dataset ;
+    rdfs:label "Ontology for General Medical Science" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OGMS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OGMS/download> .
+
+<https://data.bioontology.org/ontologies/OGSF> a dcat:Dataset ;
+    rdfs:label "Ontology for Genetic Susceptibility Factor" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OGSF" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OGSF/download> .
+
+<https://data.bioontology.org/ontologies/OMV> a dcat:Dataset ;
+    rdfs:label "Ontology Metadata Vocabulary" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OMV" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OMV/download> .
+
+<https://data.bioontology.org/ontologies/ONTOAD> a dcat:Dataset ;
+    rdfs:label "Bilingual Ontology of Alzheimer's Disease and Related Diseases" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ONTOAD" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ONTOAD/download> .
+
+<https://data.bioontology.org/ontologies/ONTODM-KDD> a dcat:Dataset ;
+    rdfs:label "Ontology of Data Mining Investigations" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "ONTODM-KDD" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/ONTODM-KDD/download> .
+
+<https://data.bioontology.org/ontologies/OPL> a dcat:Dataset ;
+    rdfs:label "Ontology for Parasite LifeCycle" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OPL" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OPL/download> .
+
+<https://data.bioontology.org/ontologies/OPMI> a dcat:Dataset ;
+    rdfs:label "Ontology of Precision Medicine and Investigation" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "OPMI" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/OPMI/download> .
+
+<https://data.bioontology.org/ontologies/PARTUMDO> a dcat:Dataset ;
+    rdfs:label "postpartum depression ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PARTUMDO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PARTUMDO/download> .
+
+<https://data.bioontology.org/ontologies/PE-O> a dcat:Dataset ;
+    rdfs:label "Pre-eclampsia Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PE-O" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PE-O/download> .
+
+<https://data.bioontology.org/ontologies/PHENOMEBLAST> a dcat:Dataset ;
+    rdfs:label "PhenomeBLAST Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PHENOMEBLAST" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PHENOMEBLAST/download> .
+
+<https://data.bioontology.org/ontologies/PINO> a dcat:Dataset ;
+    rdfs:label "Pregnancy Information Needs Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PINO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PINO/download> .
+
+<https://data.bioontology.org/ontologies/PREO> a dcat:Dataset ;
+    rdfs:label "Presence Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PREO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PREO/download> .
+
+<https://data.bioontology.org/ontologies/PSIMOD> a dcat:Dataset ;
+    rdfs:label "Protein Modification Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PSIMOD" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PSIMOD/download> .
+
+<https://data.bioontology.org/ontologies/PTO> a dcat:Dataset ;
+    rdfs:label "Plant Trait Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PTO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PTO/download> .
+
+<https://data.bioontology.org/ontologies/PW> a dcat:Dataset ;
+    rdfs:label "Pathway Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "PW" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/PW/download> .
+
+<https://data.bioontology.org/ontologies/RCTV2> a dcat:Dataset ;
+    rdfs:label "Read Clinical Terminology Version 2" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "RCTV2" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/RCTV2/download> .
+
+<https://data.bioontology.org/ontologies/RO> a dcat:Dataset ;
+    rdfs:label "Radiomics Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "RO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/RO/download> .
+
+<https://data.bioontology.org/ontologies/RPO> a dcat:Dataset ;
+    rdfs:label "Resource of Asian Primary Immunodeficiency Diseases (RAPID) Phenotype Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "RPO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/RPO/download> .
+
+<https://data.bioontology.org/ontologies/SIMON> a dcat:Dataset ;
+    rdfs:label "Simple Measurement Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "SIMON" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/SIMON/download> .
+
+<https://data.bioontology.org/ontologies/SIO> a dcat:Dataset ;
+    rdfs:label "Semanticscience Integrated Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "SIO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/SIO/download> .
+
+<https://data.bioontology.org/ontologies/SOCPRES> a dcat:Dataset ;
+    rdfs:label "Social Prescribing Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "SOCPRES" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/SOCPRES/download> .
+
+<https://data.bioontology.org/ontologies/TEO> a dcat:Dataset ;
+    rdfs:label "Time Event Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "TEO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/TEO/download> .
+
+<https://data.bioontology.org/ontologies/TESTEX> a dcat:Dataset ;
+    rdfs:label "test1" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "TESTEX" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/TESTEX/download> .
+
+<https://data.bioontology.org/ontologies/TIMEBANK> a dcat:Dataset ;
+    rdfs:label "Timebank Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "TIMEBANK" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/TIMEBANK/download> .
+
+<https://data.bioontology.org/ontologies/TMA> a dcat:Dataset ;
+    rdfs:label "Tissue Microarray Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "TMA" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/TMA/download> .
+
+<https://data.bioontology.org/ontologies/TMO> a dcat:Dataset ;
+    rdfs:label "Translational Medicine Ontology" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "TMO" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/TMO/download> .
+
+<https://data.bioontology.org/ontologies/TRANS> a dcat:Dataset ;
+    rdfs:label "Nurse Transitional" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "TRANS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/TRANS/download> .
+
+<https://data.bioontology.org/ontologies/VFB_DRIVERS> a dcat:Dataset ;
+    rdfs:label "vfb_drivers" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "VFB_DRIVERS" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/VFB_DRIVERS/download> .
+
+<https://data.bioontology.org/ontologies/VODANA-MI> a dcat:Dataset ;
+    rdfs:label "VODANA-MIGRANTS-INTERVIEWS" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "VODANA-MI" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/VODANA-MI/download> .
+
+<https://data.bioontology.org/ontologies/XREF-FUNDER-REG> a dcat:Dataset ;
+    rdfs:label "CrossRef Funder Registry" ;
+    void:inDataset <http://purl.org/whyis/voo/portal/bioportal> ;
+    skos:notation "XREF-FUNDER-REG" ;
+    dcat:distribution <https://data.bioontology.org/ontologies/XREF-FUNDER-REG/download> .
+
+<https://data.bioontology.org/ontologies/AD-DROP/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ADCAD/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/AGRO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/APAONTO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/AURA/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/BE/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/BIFO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/BIPOM/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/BIPON/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/BIRNLEX/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/BP-METADATA/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/BRO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/CANONT/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/CCONT/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/CDPEO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/CHEAR/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/COGAT/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/COGPO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/CRO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/CST/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/CTENO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/DADA/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/DAO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/DELETE/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/DOREMUS-KEYS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/DRPSNPTO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/EDDA/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/EGO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/EMAPA/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ENVS_VARIABLES/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/EVI/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/FALDO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/FB-CV/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/FHHO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/FOAF/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/GAMUTS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/GBM/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/GDCO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/GEOSPECIES/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/GFO-BIO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/HEIO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/HIVMT/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/HIVO004/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/HL7/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/HOOM/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/HP_O/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/HTO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ICO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/IDO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ILLNESSINJURY/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ISO19110/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ISO19115ROLES/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/LIFO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/M4M19-SUBS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MARC-RELATORS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MATRCOMPOUND/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MEDO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MHMO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MI/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MOOCCIADO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MOOCCUADO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/MOP/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/NCRO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/NEO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/NGBO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/NIFDYS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OA/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OARCS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OBOREL/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OFSMR/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OGMS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OGSF/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OMV/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ONTOAD/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/ONTODM-KDD/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OPL/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/OPMI/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PARTUMDO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PE-O/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PHENOMEBLAST/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PINO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PREO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PSIMOD/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PTO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/PW/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/RCTV2/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/RO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/RPO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/SIMON/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/SIO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/SOCPRES/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/TEO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/TESTEX/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/TIMEBANK/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/TMA/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/TMO/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/TRANS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/VFB_DRIVERS/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/VODANA-MI/download> a dcat:Distribution .
+
+<https://data.bioontology.org/ontologies/XREF-FUNDER-REG/download> a dcat:Distribution .
+

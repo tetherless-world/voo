@@ -1,0 +1,6 @@
+whyis load -i load/voo.ttl
+whyis load -i load/portals.ttl
+whyis load -i load/bioportal.load.setl.ttl
+whyis load -i load/matportal.load.setl.ttl
+whyis load -i load/aberowl.load.setl.ttl
+whyis load -i load/ols.load.setl.ttl

@@ -1,0 +1,234 @@
+{% extends "base.html" %}
+
+{% from "_macros.html" import render_resource_link, render_rdfa_resource_link, get_label, facts_panel, summary_panel, content %}
+{% block title %}{{config['SITE_NAME']}}{% endblock %}
+
+{% block pageheader %}
+<div class="jumbotron" style="color: #eee; background-color: #08233c; background: url('{{config['SITE_HEADER_IMAGE']}}') no-repeat top center; background-size:cover">
+  <div class="container" style="text-shadow: 0px 0px 20px black;">
+    <h1 class="">{{title()}}</h1>
+    <p class="lead">Studying ontology reuse in the wild.</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-4">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Quick Statistics</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  <tr>
+	    <th>OWL Ontologies</th>
+	    <td style="text-align:right" >
+	      {{'select (count(?ontology) as ?ontologies) where {
+	      ?ontology a owl:Ontology.
+	      minus {
+	        ?ontology prov:specializationOf ?o.
+	      }
+	      }' | query | map(attribute="ontologies")| first  }}
+	    </td>
+	  </tr>
+	  <tr>
+	    <th>SKOS Concept Schemes</th>
+	    <td style="text-align:right" >
+	      {{'select (count(?ontology) as ?ontologies) where {
+	      ?ontology a skos:ConceptScheme. filter(!isblank(?ontology))
+	      minus {
+	        ?ontology prov:specializationOf ?o.
+	      }
+	      }' | query | map(attribute="ontologies")| first  }}
+	    </td>
+	  </tr>
+	  <tr>
+	    <th>Importing Ontologies</th>
+	    <td style="text-align:right" >
+	      {{'
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+select (count(distinct ?ontology) as ?ontologies) where {
+  ?ontology owl:imports [].
+}
+' | query | map(attribute="ontologies")| first  }}
+	    </td>
+	  </tr>
+	  <tr>
+	    <th>MIREOT-ing Ontologies</th>
+	    <td style="text-align:right" >
+	      {{'
+PREFIX sio: <http://semanticscience.org/resource/>
+prefix voo: <http://purl.org/whyis/voo/>
+SELECT (count (distinct ?ontology) as ?ontology_count) WHERE {
+  ?ontology a owl:Ontology; sio:hasAttribute [a voo:MIREOTCount; sio:hasValue ?mireot]
+} 
+' | query | map(attribute="ontology_count")| first  }}
+	    </td>
+	  </tr>
+	  <tr>
+	    <th>Imported Ontologies</th>
+	    <td style="text-align:right" >
+	      {{'
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+select (count(distinct ?ontology) as ?ontologies) where {
+  [] owl:imports ?ontology.
+}
+' | query | map(attribute="ontologies")| first  }}
+	    </td>
+	  </tr>
+	  <tr>
+	    <th>Namespaces</th>
+	    <td style="text-align:right" >
+	      {{'
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+prefix voo: <http://purl.org/whyis/voo/>  
+select (count(distinct ?ontology) as ?ontologies) where {
+  ?ontology a owl:Ontology.
+  ?ontology vann:preferredNamespaceUri ?namespace.
+}
+' | query | map(attribute="ontologies")| first  }}
+	    </td>
+	  </tr>
+{#	  {% for row in '
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix voo: <http://purl.org/whyis/voo/>
+SELECT ?type (count (distinct ?sub) as ?terms) WHERE {
+  ?type rdfs:subClassOf voo:Term.
+  ?sub rdf:type ?type.
+} group by ?type order by desc(?terms)
+' | query | iter_labelize(key='type') %}
+	  <tr data-toggle="tooltip" data-placement="right" title="{{row['type']}}">
+	    <th>
+	      {{ row['label'] }} instances
+	    </th>
+	    <td style="text-align:right">{{ row['terms'] }}</td>
+	  </tr>
+	  {% endfor %}
+	  <tr>
+	    <th>MIREOT-ed Terms</th>
+	    <td style="text-align:right" >
+	      {{'
+PREFIX sio: <http://semanticscience.org/resource/>
+prefix voo: <http://purl.org/whyis/voo/>
+SELECT (sum (?mireot) as ?mireot_count) WHERE {
+  ?ontology a owl:Ontology; sio:hasAttribute [a voo:MIREOTCount; sio:hasValue ?mireot]
+} 
+' | query | map(attribute="mireot_count")| first  }}
+	    </td>
+	  </tr>#}
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+  <div class="col-md-4">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Portal Stats</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  <thead>
+	    <tr >
+	      <th scope="col">Portal</th>
+	      <th style="text-align:center" scope="col">Listed Ontologies</th>
+	      <th style="text-align:center" scope="col">Imported Ontologies</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for portal in '
+	    prefix voo: <http://purl.org/whyis/voo/>
+
+	    SELECT ?portal (count(distinct ?ontology) as ?ontologies) (count(distinct ?official_ontology) as ?official_ontologies) WHERE {
+	      ?portal a voo:OntologyPortal.
+	      optional {
+	        ?ontology void:inDataset ?portal.
+	        optional {
+	          ?ontology dcat:distribution?/prov:specializationOf? ?official_ontology.
+	          ?official_ontology a owl:Ontology.
+	        }
+	      }
+	      minus {
+	        ?official_ontology prov:specializationOf ?o.
+	      }
+	    } group by ?portal order by desc(?ontologies)
+	    ' | query | iter_labelize(key='portal') %}
+	    <tr>
+	      <th scope="row">{{portal['label']}}</th>
+	      <td style="text-align:right" >
+		{{portal['ontologies']}}
+	      </td>
+	      <td style="text-align:right" >
+		{{portal['official_ontologies']}}
+	      </td>
+	  </tr>
+	  {% endfor %}
+	  </tbody>
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+  <div class="col-md-4">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Top 10 Imported Ontologies</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  <thead>
+	    <tr >
+	      <th scope="col">Ontology</th>
+	      <th style="text-align:center" scope="col">Imports</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for portal in '
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+prefix voo: <http://purl.org/whyis/voo/>
+
+SELECT ?ontology (count(distinct ?importer) as ?indegree) WHERE {
+  ?importer owl:imports/prov:specializationOf? ?ontology.
+  minus {?ontology prov:specializationOf []}.
+  minus {
+    ?ontology dcterms:isPartOf ?collection.
+    ?importer dcterms:isPartOf ?collection.
+  }
+  minus {
+    ?ontology a voo:CoreOntology.
+    #bind ("yes" as ?core)
+  }
+} group by ?ontology order by desc(?indegree) limit 10
+' | query | iter_labelize(key='ontology') %}
+	    <tr>
+	      <th scope="row" title="{{portal['ontology']}}">{{portal['label']}}</th>
+	      <td style="text-align:right" >
+		{{portal['indegree']}}
+	      </td>
+	  </tr>
+	  {% endfor %}
+	  </tbody>
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+@prefix voo: <http://purl.org/whyis/voo/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix portal: <http://purl.org/whyis/voo/portal/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+voo:Term a owl:Class;
+    rdfs:label "Term".
+
+voo:Ontology a owl:Class;
+    rdfs:label "Ontology".
+
+owl:Class rdfs:subClassOf voo:Term.
+rdfs:Class rdfs:subClassOf voo:Term.
+skos:Concept rdfs:subClassOf voo:Term.
+#owl:ObjectProperty rdfs:subClassOf voo:Term.
+#owl:DatatypeProperty rdfs:subClassof voo:Term.
+#owl:AnnotationProperty rdfs:subClassOf voo:Term.
+#rdf:Property rdfs:subClassOf voo:Term.
+
+owl:Ontology rdfs:subClassOf voo:Ontology.
+skos:ConceptScheme rdfs:subClassOf voo:Ontology.
+
+voo:OntologyPortal a owl:Class; 
+  rdfs:subClassOf void:Dataset; 
+  rdfs:label "Ontology Portal".
+
+owl:Ontology a owl:Class;
+  rdfs:label "Ontology".
+

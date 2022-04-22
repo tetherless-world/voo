@@ -1,0 +1,38 @@
+@prefix voo: <http://purl.org/whyis/voo/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix portal: <http://purl.org/whyis/voo/portal/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+# Does not use correct Conneg for RDFlib [1]
+# and always returns bad query when otherwise correct [2].
+# [1] https://github.com/bio-ontology-research-group/aberowlweb/issues/121
+# [2] https://github.com/bio-ontology-research-group/aberowlweb/issues/120
+# <http://aber-owl.net/api/sparql>
+#   a voo:OntologyPortal;
+#   rdfs:label "AberOWL".
+
+#<http://sparql.bioontology.org/ontologies/sparql/>
+#  a voo:OntologyPortal;
+#  dc:identifier "BIOPORTAL";
+#  rdfs:label "BioPortal".
+
+portal:esipfed
+  void:sparqlEndpoint <http://cor.esipfed.org/sparql>;
+  a voo:OntologyPortal;
+  rdfs:label "ESIPFed".
+
+
+portal:obofoundry 
+  void:sparqlEndpoint <http://sparql.hegroup.org/sparql>;
+  a voo:OntologyPortal;
+  rdfs:label "OBO Foundry".
+
+portal:lov
+  void:sparqlEndpoint <https://lov.linkeddata.es/dataset/lov/sparql>;
+  a voo:OntologyPortal, voo:FullSPARQLDownload;
+  rdfs:label "Linked Open Vocabularies".
+
