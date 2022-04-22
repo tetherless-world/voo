@@ -23,6 +23,7 @@
       </md-card-title>
       <md-card-content layout="row" layout-align="space-between">
 	<table class="table">
+	  
 	  <tr>
 	    <th>OWL Ontologies</th>
 	    <td style="text-align:right" >
@@ -56,18 +57,6 @@ select (count(distinct ?ontology) as ?ontologies) where {
   ?ontology owl:imports [].
 }
 ' | query | map(attribute="ontologies")| first  }}
-	    </td>
-	  </tr>
-	  <tr>
-	    <th>MIREOT-ing Ontologies</th>
-	    <td style="text-align:right" >
-	      {{'
-PREFIX sio: <http://semanticscience.org/resource/>
-prefix voo: <http://purl.org/whyis/voo/>
-SELECT (count (distinct ?ontology) as ?ontology_count) WHERE {
-  ?ontology a owl:Ontology; sio:hasAttribute [a voo:MIREOTCount; sio:hasValue ?mireot]
-} 
-' | query | map(attribute="ontology_count")| first  }}
 	    </td>
 	  </tr>
 	  <tr>
@@ -114,19 +103,56 @@ SELECT ?type (count (distinct ?sub) as ?terms) WHERE {
 	    </th>
 	    <td style="text-align:right">{{ row['terms'] }}</td>
 	  </tr>
-	  {% endfor %}
-	  <tr>
-	    <th>MIREOT-ed Terms</th>
-	    <td style="text-align:right" >
-	      {{'
-PREFIX sio: <http://semanticscience.org/resource/>
-prefix voo: <http://purl.org/whyis/voo/>
-SELECT (sum (?mireot) as ?mireot_count) WHERE {
-  ?ontology a owl:Ontology; sio:hasAttribute [a voo:MIREOTCount; sio:hasValue ?mireot]
-} 
-' | query | map(attribute="mireot_count")| first  }}
-	    </td>
-	  </tr>#}
+	  {% endfor %} -#}
+	    {% set mireot =  'PREFIX owl: <http://www.w3.org/2002/07/owl#>
+	      PREFIX vann: <http://purl.org/vocab/vann/>
+	      PREFIX sio: <http://semanticscience.org/resource/>
+	      prefix voo: <http://purl.org/whyis/voo/>
+	      SELECT (count(distinct ?ontology) as ?mireoting) (count(distinct ?quoted) as ?mireoted) (sum(distinct(?quote_count)) as ?quotes) WHERE {
+	      ?ontology sio:hasAttribute [
+	      a voo:NamespaceUseCount;
+	      sio:inRelationTo ?namespace;
+	      sio:hasValue ?quote_count
+	      ].
+	      ?quoted vann:preferredNamespaceUri ?namespace.
+	      minus {?ontology owl:imports ?quoted}
+	      } ' | query | first %}
+	      <tr>
+		<th scope="row">MIREOT-ing Ontologies</th>
+		<td style="text-align:right">{{mireot['mireoting']}}</td>
+	      </tr>
+	      <tr>
+		<th scope="row">MIREOT-ed Ontologies</th>
+		<td style="text-align:right">{{mireot['mireoted']}}</td>
+	      </tr>
+	      <tr>
+		<th scope="row">MIREOT-ed Terms</th>
+		<td style="text-align:right">{{mireot['quotes']}}</td>
+	      </tr>
+	      {% set subsets = '
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX void: <http://rdfs.org/ns/void#>
+SELECT
+  (count(distinct ?ontology) as ?importers)
+  (count(distinct ?imports) as ?importees)
+  (count(distinct ?import) as ?subsets)
+WHERE {
+  ?ontology owl:imports ?import.
+  ?imports void:subset ?import.
+}
+' | query | first %}
+	      <tr>
+		<th scope="row">Subsetting Ontologies</th>
+		<td style="text-align:right">{{subsets['importers']}}</td>
+	      </tr>
+	      <tr>
+		<th scope="row">Subsetted Ontologies</th>
+		<td style="text-align:right">{{subsets['importees']}}</td>
+	      </tr>
+	      <tr>
+		<th scope="row">Subsets</th>
+		<td style="text-align:right">{{subsets['subsets']}}</td>
+	      </tr>
 	</table>
       </md-card-content>
     </md-card>
@@ -175,6 +201,7 @@ SELECT (sum (?mireot) as ?mireot_count) WHERE {
 	      </td>
 	  </tr>
 	  {% endfor %}
+
 	  </tbody>
 	</table>
       </md-card-content>

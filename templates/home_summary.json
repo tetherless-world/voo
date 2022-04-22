@@ -23,7 +23,7 @@ where {
   ?ontology owl:imports ?import.
 }
 ' | query | first |tojson }},
-	"vann:preferredNamespaceUri" : {{'
+	"namespaceUri" : {{'
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -97,7 +97,7 @@ prefix voo: <http://purl.org/whyis/voo/>
 
 SELECT
   ?ontology
-  (count(distinct ?importer) as ?indegree) 
+  (count(distinct ?importer) as ?count) 
 WHERE {
   ?importer owl:imports/prov:specializationOf? ?ontology.
   minus {?ontology prov:specializationOf []}.
@@ -109,7 +109,7 @@ WHERE {
     ?ontology a voo:CoreOntology.
     #bind ("yes" as ?core)
   }
-} group by ?ontology order by desc(?indegree) limit 10
+} group by ?ontology order by desc(?count) limit 10
 ' | query | iter_labelize(key='ontology') | tojson }},
     "top_subsets" : {{'
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
