@@ -46,10 +46,10 @@ The most re-used ontologies through *owl:imports* are:
 
 The most re-used ontologies through MIREOT-style term quoting are:
 
-| Ontology | Imports |
+| Ontology | Uses |
 |-|-|
-{%- for source in site.data.summary.top_imports %}
-[{{source.label}}]({{source.ontology}}) | {{source.indegree}} |
+{%- for source in site.data.summary.top_mireots %}
+[{{source.label}}]({{source.quoted}}) | {{source.indegree}} |
 {%- endfor %}
 
 
