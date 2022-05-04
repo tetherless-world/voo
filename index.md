@@ -28,5 +28,5 @@ We loaded ontologies from several sources, detailed below:
 
 We have prepared a web visualization of ontology reuse. Note: it is a large graph and can be very slow to load and manipulate.
 
-[![Ontology Sky Chart](skychart/thumbnai.png)](skychart/)
+[![Ontology Sky Chart](skychart/thumbnail.png)](skychart/)
 
