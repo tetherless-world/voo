@@ -1,0 +1,21 @@
+{{'
+prefix voo: <http://purl.org/whyis/voo/>
+
+select distinct ?ontology ?import ("imports" as ?type) where {
+  ?ontology a owl:Ontology.
+  minus {
+     ?ontology prov:specializationOf ?o.
+  }
+  filter (!isblank(?ontology))
+  filter (!strstarts(str(?ontology),"https://data.bioontology.org/ontologies"))
+  ?ontology owl:imports/prov:specializationOf? ?import.
+  minus {
+    ?import prov:specializationOf [].
+  }
+  minus {
+    [] void:subset ?import.
+  }
+  ?import a owl:Ontology.
+  filter(strstarts(str(?ontology), "http") && strstarts(str(?import), "http"))
+}
+' | query | tocsv }}

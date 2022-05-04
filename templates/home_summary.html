@@ -1,0 +1,203 @@
+{% extends "base.html" %}
+
+{% from "_macros.html" import render_resource_link, render_rdfa_resource_link, get_label, facts_panel, summary_panel, content %}
+{% block title %}{{config['SITE_NAME']}}{% endblock %}
+
+{% block pageheader %}
+<div class="jumbotron" style="color: #eee; background-color: #08233c; background: url('{{config['SITE_HEADER_IMAGE']}}') no-repeat top center; background-size:cover">
+  <div class="container" style="text-shadow: 0px 0px 20px black;">
+    <h1 class="">{{title()}}</h1>
+    <p class="lead">Studying ontology reuse in the wild.</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+{% set summary = this | include(view="summary") | fromjson %}
+<div class="row">
+  <div class="col-md-6">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Quick Statistics</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  
+	  <tr>
+	    <th>OWL Ontologies</th>
+	    <td style="text-align:right" >
+	      {{summary.summary.Ontology}}
+	    </td>
+	  </tr>
+	  <tr>
+	    <th>SKOS Concept Schemes</th>
+	    <td style="text-align:right" >{{summary.summary.ConceptScheme}}</td>
+	  </tr>
+	  <tr>
+	    <th>Importing Ontologies</th>
+	    <td style="text-align:right" >{{summary.summary.import.source}}</td>
+	  </tr>
+	  <tr>
+	    <th>Imported Ontologies</th>
+	    <td style="text-align:right" >{{summary.summary.import.target}}</td>
+	  </tr>
+	  <tr>
+	    <th>Namespaces</th>
+	    <td style="text-align:right" >{{summary.summary.namespaceUri}}</td>
+	  </tr>
+	  <tr>
+	    <th scope="row">MIREOT-ing Ontologies</th>
+	    <td style="text-align:right">{{summary.summary.mireot.source}}</td>
+	  </tr>
+	  <tr>
+	    <th scope="row">MIREOT-ed Ontologies</th>
+	    <td style="text-align:right">{{summary.summary.mireot.target}}</td>
+	  </tr>
+	  <tr>
+	    <th scope="row">MIREOT-ed Terms</th>
+	    <td style="text-align:right">{{summary.summary.mireot.uses}}</td>
+	  </tr>
+	  <tr>
+	    <th scope="row">Subsetting Ontologies</th>
+	    <td style="text-align:right">{{summary.summary.subset.source}}</td>
+	  </tr>
+	  <tr>
+	    <th scope="row">Subsetted Ontologies</th>
+	    <td style="text-align:right">{{summary.summary.subset.target}}</td>
+	  </tr>
+	  <tr>
+	    <th scope="row">Subsets</th>
+	    <td style="text-align:right">{{summary.summary.subset.subsets}}</td>
+	  </tr>
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+  <div class="col-md-6">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Portal Stats</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  <thead>
+	    <tr >
+	      <th scope="col">Source</th>
+	      <th style="text-align:center" scope="col">Listed Ontologies</th>
+	      <th style="text-align:center" scope="col">Loaded Ontologies</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for portal in summary.sources %}
+	    <tr>
+	      <th scope="row"><a href="{{portal.website}}">{{portal['label']}}</a></th>
+	      <td style="text-align:right" >
+		{{portal['listed']}}
+	      </td>
+	      <td style="text-align:right" >
+		{{portal['loaded']}}
+	      </td>
+	  </tr>
+	  {% endfor %}
+
+	  </tbody>
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Top Imported Ontologies</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  <thead>
+	    <tr >
+	      <th scope="col">Ontology</th>
+	      <th style="text-align:center" scope="col">Imports</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for ontology in summary.top_imports %}
+	    <tr>
+	      <th scope="row" title="{{ontology['ontology']}}">{{ontology['label']}}</th>
+	      <td style="text-align:right" >
+		{{ontology['count']}}
+	      </td>
+	  </tr>
+	  {% endfor %}
+	  </tbody>
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+  <div class="col-md-4">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Top Subsetted Ontologies</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  <thead>
+	    <tr >
+	      <th scope="col">Ontology</th>
+	      <th style="text-align:center" scope="col">Subset Imports</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for ontology in summary.top_subsets %}
+	    <tr>
+	      <th scope="row" title="{{ontology['ontology']}}">{{ontology['label']}}</th>
+	      <td style="text-align:right" >
+		{{ontology['count']}}
+	      </td>
+	  </tr>
+	  {% endfor %}
+	  </tbody>
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+  <div class="col-md-4">
+    <md-card>
+      <md-card-title>
+	<md-card-title-text>
+	  <span class="md-headline">Top Quoted Ontologies</span>
+	</md-card-title-text>
+      </md-card-title>
+      <md-card-content layout="row" layout-align="space-between">
+	<table class="table">
+	  <thead>
+	    <tr >
+	      <th scope="col">Ontology</th>
+	      <th style="text-align:center" scope="col">Quoted By</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for ontology in summary.top_imports %}
+	    <tr>
+	      <th scope="row" title="{{ontology['ontology']}}">{{ontology['label']}}</th>
+	      <td style="text-align:right" >
+		{{ontology.count}}
+	      </td>
+	  </tr>
+	  {% endfor %}
+	  </tbody>
+	</table>
+      </md-card-content>
+    </md-card>
+  </div>
+</div>
+
+{% endblock %}

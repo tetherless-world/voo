@@ -1,0 +1,15 @@
+{{'
+prefix voo: <http://purl.org/whyis/voo/>
+
+select ?ontology (sample(?l) as ?label) ?collection where {
+  ?ontology a owl:Ontology.
+  minus {
+     ?ontology prov:specializationOf ?o.
+  }
+  filter (!isblank(?ontology))
+  filter (!strstarts(str(?ontology),"https://data.bioontology.org/ontologies"))
+  optional { ?ontology rdfs:label|dc:title ?l }
+  optional { ?ontology dc:isPartOf ?collection }
+  filter(strstarts(str(?ontology), "http"))
+} group by ?ontology ?collection
+' | query | tojson }}

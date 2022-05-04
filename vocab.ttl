@@ -16,7 +16,25 @@
 @prefix whyis: <http://vocab.rpi.edu/whyis/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 
+@prefix voo: <http://purl.org/whyis/voo/> .
 whyis:hasSummary rdfs:subPropertyOf whyis:hasView;
     dc:identifier "summary".
 
 whyis:HomePage whyis:hasSummary "home_summary.json".
+
+voo:ontologies a voo:OntologiesPage.
+
+voo:OntologiesPage whyis:hasView "list_ontologies.json";
+    voo:hasCytoscape "cytoscape_ontologies.json";
+    voo:hasImports "ontology_imports.json";
+    voo:hasSubsets "ontology_subsets.json";
+    voo:hasQuotes "ontology_quotes.json".
+
+voo:hasImports rdfs:subPropertyOf whyis:hasView;
+    dc:identifier "imports".
+voo:hasSubsets rdfs:subPropertyOf whyis:hasView;
+    dc:identifier "subsets".
+voo:hasQuotes rdfs:subPropertyOf whyis:hasView;
+    dc:identifier "quotes".
+voo:hasCytoscape rdfs:subPropertyOf whyis:hasView;
+    dc:identifier "cytoscape".

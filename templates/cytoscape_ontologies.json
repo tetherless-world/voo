@@ -1,0 +1,48 @@
+{
+    "elements": {
+	"nodes": [
+	    {% for node in this | include | fromjson %}
+	    {
+		"data" : {
+		    {% if "label" in node %}"label" : "{{node.label.strip().replace('\n',' ')}}",{% endif %}
+		    {% if "collection" in node %}"collection" : "{{node.collection}}",{% endif %}
+		    "id": "{{node.ontology}}"
+		}
+	    }{% if not loop.last %},{% endif %}
+	    {% endfor %}
+	],
+	"edges" : [
+	    {% for node in this | include(view="imports") | fromjson %}
+	    {
+		"data" : {
+		    "id" : "{{node.ontology}}_{{node.type}}_{{node.import}}",
+		    "source" : "{{node.ontology}}",
+		    "target" : "{{node.import}}",
+		    "type" : "{{node.type}}"
+		}
+	    },
+	    {% endfor %}
+	    {% for node in this | include(view="subsets") | fromjson %}
+	    {
+		"data" : {
+		    "id" : "{{node.ontology}}_{{node.type}}_{{node.import}}",
+		    "source" : "{{node.ontology}}",
+		    "target" : "{{node.import}}",
+		    "type" : "{{node.type}}"
+		}
+	    },
+            {% endfor %}
+	    {% for node in this | include(view="quotes") | fromjson %}
+	    {
+		"data" : {
+		    "id" : "{{node.ontology}}_{{node.type}}_{{node.import}}",
+		    "source" : "{{node.ontology}}",
+		    "target" : "{{node.quoted}}",
+		    "uses" : "{{node.uses}}",
+		    "type" : "{{node.type}}"
+		}
+	    }{% if not loop.last %},{% endif %}
+	     {% endfor %}
+	]
+    }
+}

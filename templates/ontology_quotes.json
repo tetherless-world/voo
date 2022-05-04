@@ -1,0 +1,24 @@
+{{'
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX sio: <http://semanticscience.org/resource/>
+prefix voo: <http://purl.org/whyis/voo/>
+SELECT
+  ?ontology
+  ?quoted
+  (max(?quote_count) as ?uses) 
+  ("quoted" as ?type)
+WHERE {
+  ?ontology sio:hasAttribute [
+    a voo:NamespaceUseCount;
+    sio:inRelationTo ?namespace;
+    sio:hasValue ?quote_count
+  ].
+  ?ontology a owl:Ontology.
+  ?quoted vann:preferredNamespaceUri ?namespace.
+  minus {?ontology owl:imports/^void:subset? ?quoted}
+  filter(strstarts(str(?ontology), "http") && strstarts(str(?quoted), "http"))
+  ?quoted a owl:Ontology.
+  filter(?ontology != ?quoted)
+} group by ?ontology ?quoted
+' | query | tocsv }}

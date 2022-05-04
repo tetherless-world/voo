@@ -5,12 +5,16 @@
 	      minus {
 	        ?ontology prov:specializationOf ?o.
 	      }
+  filter (!isblank(?ontology))
+  filter (!strstarts(str(?ontology),"https://data.bioontology.org/ontologies"))
+  filter(strstarts(str(?ontology), "http"))
 	      }' | query | map(attribute="ontologies")| first  }},
 	"ConceptScheme" : {{'select (count(?ontology) as ?ontologies) where {
 	      ?ontology a skos:ConceptScheme. filter(!isblank(?ontology))
 	      minus {
 	        ?ontology prov:specializationOf ?o.
 	      }
+  filter(strstarts(str(?ontology), "http"))
 	      }' | query | map(attribute="ontologies")| first  }},
 	"import" : {{'
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -21,6 +25,8 @@ select
   (count(distinct ?import) as ?target)
 where {
   ?ontology owl:imports ?import.
+  filter(strstarts(str(?ontology), "http"))
+
 }
 ' | query | first |tojson }},
 	"namespaceUri" : {{'
@@ -32,6 +38,7 @@ prefix voo: <http://purl.org/whyis/voo/>
 select (count(distinct ?ontology) as ?ontologies) where {
   ?ontology a owl:Ontology.
   ?ontology vann:preferredNamespaceUri ?namespace.
+  filter(strstarts(str(?ontology), "http"))
 }
 ' | query | map(attribute="ontologies")| first  }},
 	"mireot" : {{ '
@@ -42,15 +49,16 @@ prefix voo: <http://purl.org/whyis/voo/>
 SELECT
   (count(distinct ?ontology) as ?source)
   (count(distinct ?quoted) as ?target)
-  (sum(distinct(?quote_count)) as ?uses) 
+  (max(?quote_count) as ?uses) 
 WHERE {
   ?ontology sio:hasAttribute [
     a voo:NamespaceUseCount;
     sio:inRelationTo ?namespace;
     sio:hasValue ?quote_count
   ].
+  filter(strstarts(str(?ontology), "http"))
   ?quoted vann:preferredNamespaceUri ?namespace.
-  minus {?ontology owl:imports ?quoted}
+  minus {?ontology owl:imports/^void:subset? ?quoted}
 } ' | query | first  | tojson }},
 	"subset" : {{'
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -62,6 +70,7 @@ SELECT
 WHERE {
   ?ontology owl:imports ?import.
   ?imports void:subset ?import.
+  filter(strstarts(str(?ontology), "http"))
 }
 ' | query | first | tojson}}
     },
@@ -82,6 +91,7 @@ WHERE {
       ?official_ontology a owl:Ontology.
     }
   }
+  filter(strstarts(str(?ontology), "http"))
   minus {
     ?official_ontology prov:specializationOf ?o.
   }
@@ -109,6 +119,7 @@ WHERE {
     ?ontology a voo:CoreOntology.
     #bind ("yes" as ?core)
   }
+  filter(strstarts(str(?ontology), "http"))
 } group by ?ontology order by desc(?count) limit 10
 ' | query | iter_labelize(key='ontology') | tojson }},
     "top_subsets" : {{'
@@ -138,24 +149,27 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 prefix voo: <http://purl.org/whyis/voo/>
+PREFIX vann: <http://purl.org/vocab/vann/>
 
 SELECT
-  ?ontology 
-  (count(distinct ?importer) as ?indegree) 
+  ?quoted 
+  (count(distinct ?ontology) as ?indegree) 
 WHERE {
-  ?importer owl:imports/prov:specializationOf? ?ontology.
-  minus {?ontology prov:specializationOf []}.
-  minus {
-    ?ontology dcterms:isPartOf ?collection.
-?importer dcterms:isPartOf ?collection.
-  }
-  minus {
-    ?ontology a voo:CoreOntology.
-  }
+  ?ontology sio:hasAttribute [
+    a voo:NamespaceUseCount;
+    sio:inRelationTo ?namespace;
+    sio:hasValue ?quote_count
+  ].
+  ?ontology a owl:Ontology.
+  ?quoted vann:preferredNamespaceUri ?namespace.
+  minus {?ontology owl:imports/^void:subset? ?quoted}
+  filter(strstarts(str(?ontology), "http") && strstarts(str(?quoted), "http"))
+  ?quoted a owl:Ontology.
+  filter(?ontology != ?quoted)
 }
-group by ?ontology
+group by ?quoted
 order by desc(?indegree)
 limit 10
-' | query | iter_labelize(key='ontology') | tojson }}
+' | query | iter_labelize(key='quoted') | tojson }}
 
 }
