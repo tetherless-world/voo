@@ -6,11 +6,11 @@ The Virtual Ontology Observatory (VOO) collects 2,186 ontologies from six differ
 
 | Resource | Type | URL |
 |-|-|-|
-| Summary Resource Page (This page) |  Web Site |  (http://purl.org/whyis/voo) \\
-| Ontology Sky Chart |  Visualization |  (http://purl.org/whyis/voo/skychart) \\
-| Ontology Sharing Network |  Cytoscape Network |  (http://purl.org/whyis/voo/skychart/data/networks.js)
-| Knowledge Graph Dump |  Data |  (http://purl.org/whyis/voo/download) \\
-| Code repository |  Code |  (https://github.com/tetherless-world/voo) \\
+| Summary Resource Page (This page) |  Web Site |  (http://purl.org/whyis/voo) |
+| Ontology Sky Chart |  Visualization |  (http://purl.org/whyis/voo/skychart) |
+| Ontology Sharing Network |  Cytoscape Network |  (http://purl.org/whyis/voo/skychart/data/networks.js) |
+| Knowledge Graph Dump |  Data |  (http://purl.org/whyis/voo/download) |
+| Code repository |  Code |  (https://github.com/tetherless-world/voo) |
 
 
 ## Ontology Sources
