@@ -8,7 +8,7 @@ We loaded ontologies from several sources, detailed below:
 
 | Source | Listed | Loaded |
 |-|-|-|
-{% for source in site.data.summary.sources -%}
+{%- for source in site.data.summary.sources %}
 [{{source.label}}]({{source.website}}) | {{source.listed}} | {{source.loaded}} |
 {%- endfor %}
 
